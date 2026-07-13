@@ -1,0 +1,44 @@
+Cases interior to all parameter pair convex hulls
+=============================================
+
+Interior cases:
+- AAA_F_70-79_stat_10_your_prefix_morph_4
+- AAA_F_70-79_stat_10_your_prefix_morph_8
+- AAA_F_70-79_stat_10_your_prefix_morph_9
+- AAA_F_70-79_stat_1_your_prefix_morph_10
+- AAA_F_70-79_stat_1_your_prefix_morph_4
+- AAA_F_70-79_stat_1_your_prefix_morph_5
+- AAA_F_70-79_stat_1_your_prefix_morph_7
+- AAA_F_70-79_stat_1_your_prefix_morph_8
+- AAA_F_70-79_stat_2_your_prefix_morph_1
+- AAA_F_70-79_stat_2_your_prefix_morph_3
+- AAA_F_70-79_stat_2_your_prefix_morph_4
+- AAA_F_70-79_stat_2_your_prefix_morph_6
+- AAA_F_70-79_stat_2_your_prefix_morph_8
+- AAA_F_70-79_stat_2_your_prefix_morph_9
+- AAA_F_70-79_stat_3_your_prefix_morph_3
+- AAA_F_70-79_stat_3_your_prefix_morph_5
+- AAA_F_70-79_stat_3_your_prefix_morph_8
+- AAA_F_70-79_stat_4_your_prefix_morph_1
+- AAA_F_70-79_stat_4_your_prefix_morph_2
+- AAA_F_70-79_stat_4_your_prefix_morph_4
+- AAA_F_70-79_stat_6_your_prefix_morph_1
+- AAA_F_70-79_stat_6_your_prefix_morph_10
+- AAA_F_70-79_stat_6_your_prefix_morph_4
+- AAA_F_70-79_stat_6_your_prefix_morph_5
+- AAA_F_70-79_stat_6_your_prefix_morph_6
+- AAA_F_70-79_stat_6_your_prefix_morph_8
+- AAA_F_70-79_stat_6_your_prefix_morph_9
+- AAA_F_70-79_stat_7_your_prefix_morph_4
+- AAA_F_70-79_stat_8_your_prefix_morph_10
+- AAA_F_70-79_stat_8_your_prefix_morph_2
+- AAA_F_70-79_stat_8_your_prefix_morph_7
+- AAA_F_70-79_stat_8_your_prefix_morph_9
+- AAA_F_70-79_stat_9_your_prefix_morph_1
+- AAA_F_70-79_stat_9_your_prefix_morph_3
+- AAA_F_70-79_stat_9_your_prefix_morph_4
+- AAA_F_70-79_stat_9_your_prefix_morph_5
+- AAA_F_70-79_stat_9_your_prefix_morph_7
+- AAA_F_70-79_stat_9_your_prefix_morph_9
+
+Total interior cases: 38

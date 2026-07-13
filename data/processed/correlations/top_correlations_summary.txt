@@ -1,0 +1,26 @@
+
+================================================================================
+TOP 5 STRONGEST CORRELATIONS - PARABOLIC INLET PROFILE
+================================================================================
+Rank  Input Parameter       Output Parameter                r     p-value  Sig
+--------------------------------------------------------------------------------
+1     sphericity            WSS_mean_cycle4            -0.570    4.39e-17  ***
+2     tortuosity            %_area_TAWSS_below_0.4     -0.509    2.10e-13  ***
+3     neck_diameter_1       WSS_mean_cycle4             0.492    1.75e-12  ***
+4     convexity             OSI_mean                    0.455    1.13e-10  ***
+5     neck_diameter_2       95%_WSS_systolic           -0.432    1.15e-09  ***
+--------------------------------------------------------------------------------
+Significance: * p<0.05, ** p<0.01, *** p<0.001
+
+================================================================================
+TOP 5 STRONGEST CORRELATIONS - PLUG INLET PROFILE
+================================================================================
+Rank  Input Parameter       Output Parameter                r     p-value  Sig
+--------------------------------------------------------------------------------
+1     neck_diameter_1       WSS_mean_cycle4             0.838    2.61e-49  ***
+2     convexity             OSI_mean                    0.628    2.50e-21  ***
+3     convexity             %_area_OSI_above_0.3        0.618    1.37e-20  ***
+4     convexity             95%_WSS_systolic           -0.538    4.61e-15  ***
+5     convexity             TAWSS_mean                 -0.504    4.08e-13  ***
+--------------------------------------------------------------------------------
+Significance: * p<0.05, ** p<0.01, *** p<0.001

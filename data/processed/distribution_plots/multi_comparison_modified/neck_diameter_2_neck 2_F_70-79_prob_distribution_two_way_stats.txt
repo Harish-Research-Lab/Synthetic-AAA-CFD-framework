@@ -1,0 +1,31 @@
+Statistics Report for Neck Diameter 2
+Validation Point: Neck 2
+==================================================
+
+Patient Data:
+--------------------
+Distribution: gamma
+Mean: 22.4 mm
+Std: 3.3 mm
+Sample Size: 21
+Range: [16.5, 29.2] mm
+
+All Cases:
+--------------------
+Distribution: weibull_min
+Mean: 23.7 mm
+Std: 3.0 mm
+Sample Size: 100
+Range: [17.5, 29.1] mm
+KL Divergence from Patient Distribution: 0.1784 bits
+
+
+KL Divergence Interpretation Guide:
+------------------------------
+- Values close to 0 indicate very similar distributions
+- Values < 0.5 suggest minor differences
+- Values 0.5-1.0 indicate moderate differences
+- Values > 1.0 suggest substantial differences
+
+Note: KL divergence is measured in bits and represents the information loss
+when using the comparison distribution to approximate the patient distribution.

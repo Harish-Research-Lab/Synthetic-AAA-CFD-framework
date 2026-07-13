@@ -1,0 +1,31 @@
+Statistics Report for Distal Diameter
+Validation Point: Distal
+==================================================
+
+Patient Data:
+--------------------
+Distribution: lognorm
+Mean: 19.7 mm
+Std: 6.2 mm
+Sample Size: 73
+Range: [11.0, 46.5] mm
+
+All Cases:
+--------------------
+Distribution: weibull_min
+Mean: 19.2 mm
+Std: 3.5 mm
+Sample Size: 100
+Range: [12.2, 24.1] mm
+KL Divergence from Patient Distribution: 1.2230 bits
+
+
+KL Divergence Interpretation Guide:
+------------------------------
+- Values close to 0 indicate very similar distributions
+- Values < 0.5 suggest minor differences
+- Values 0.5-1.0 indicate moderate differences
+- Values > 1.0 suggest substantial differences
+
+Note: KL divergence is measured in bits and represents the information loss
+when using the comparison distribution to approximate the patient distribution.

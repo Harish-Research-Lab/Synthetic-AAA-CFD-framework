@@ -1,0 +1,31 @@
+Statistics Report for Maximum Aneurysm Diameter
+Validation Point: Maximum Aneurysm
+==================================================
+
+Patient Data:
+--------------------
+Distribution: lognorm
+Mean: 56.3 mm
+Std: 7.3 mm
+Sample Size: 38
+Range: [43.7, 74.6] mm
+
+All Cases:
+--------------------
+Distribution: lognorm
+Mean: 58.2 mm
+Std: 6.4 mm
+Sample Size: 100
+Range: [44.5, 73.8] mm
+KL Divergence from Patient Distribution: 0.1532 bits
+
+
+KL Divergence Interpretation Guide:
+------------------------------
+- Values close to 0 indicate very similar distributions
+- Values < 0.5 suggest minor differences
+- Values 0.5-1.0 indicate moderate differences
+- Values > 1.0 suggest substantial differences
+
+Note: KL divergence is measured in bits and represents the information loss
+when using the comparison distribution to approximate the patient distribution.

@@ -1,0 +1,31 @@
+Statistics Report for Neck Diameter 1
+Validation Point: Inlet
+==================================================
+
+Patient Data:
+--------------------
+Distribution: weibull_min
+Mean: 23.7 mm
+Std: 3.4 mm
+Sample Size: 38
+Range: [17.5, 32.0] mm
+
+All Cases:
+--------------------
+Distribution: weibull_min
+Mean: 24.2 mm
+Std: 3.3 mm
+Sample Size: 100
+Range: [20.0, 29.9] mm
+KL Divergence from Patient Distribution: 3.9801 bits
+
+
+KL Divergence Interpretation Guide:
+------------------------------
+- Values close to 0 indicate very similar distributions
+- Values < 0.5 suggest minor differences
+- Values 0.5-1.0 indicate moderate differences
+- Values > 1.0 suggest substantial differences
+
+Note: KL divergence is measured in bits and represents the information loss
+when using the comparison distribution to approximate the patient distribution.

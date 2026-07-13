@@ -169,9 +169,20 @@ def setup_openfoam_case(geometry: Dict[str, Any], config: ConfigParams, case_dir
     outputCSV = config.paths.output_dir / 'files' / 'corrected_velocity_time.csv'
     outputCSV.parent.mkdir(parents=True, exist_ok=True)
     
-    convertVelocityComponents(cleanedData, str(outputCSV), correctedNormal)
-    generateUFile(str(outputCSV))
-    
+    if config.vessel_settings.inlet_profile == 'parabolic':
+        # Parabolic inlet: the codedFixedValue template embeds the waveform and
+        # resolves the flow direction from the inlet patch at runtime, so it is
+        # copied verbatim into every case as 0/U (no per-case processing needed).
+        output_u = config.paths.output_dir / 'files' / 'U'
+        output_u.parent.mkdir(parents=True, exist_ok=True)
+        parabolic_src = config.paths.input_dir / 'U' / 'U_parabolicTimeVaryingInlet'
+        shutil.copy(str(parabolic_src), str(output_u))
+        print(f"Parabolic inlet: copied {parabolic_src.name} -> {output_u}")
+    else:
+        # Plug inlet: build 0/U from the templates + case-specific corrected waveform.
+        convertVelocityComponents(cleanedData, str(outputCSV), correctedNormal)
+        generateUFile(str(outputCSV))
+
     # Create mesh dictionaries
     print("Creating mesh dictionaries...")
     createSnappyHexMeshDict(

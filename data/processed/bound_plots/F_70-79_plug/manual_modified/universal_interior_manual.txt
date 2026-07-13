@@ -1,0 +1,7 @@
+Cases interior to all parameter pair convex hulls
+=============================================
+
+Interior cases:
+- AAA_F_70-79_stat_2_plug_morph_1
+
+Total interior cases: 1

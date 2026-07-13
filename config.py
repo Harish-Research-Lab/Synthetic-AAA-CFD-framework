@@ -20,15 +20,15 @@ class Demographics:
     """Demographics settings"""
     gender: str = 'F'
     age_group: str = '70-79'
-    stat_variant: int = 10
+    stat_variant: int = 2
     random_seed: Optional[int] = 42
-    custom_suffix: str = 'your_prefix'  # New field for custom identification
+    custom_suffix: str = 'suffix'  # New field for custom identification
 
 @dataclass
 class MorphingSettings:
     """Settings for geometric morphing"""
     enable_morphing: bool = True
-    num_variations: int = 10
+    num_variations: int = 2
     save_control_points: bool = False
     visualize_morphing: bool = False
     generate_cases: bool = True
@@ -51,6 +51,7 @@ class VesselSettings:
     perturbation_range: float = 0.15
     num_cycles: int = 4
     save_visualization_images: bool = False
+    inlet_profile: str = 'plug'
 
 @dataclass
 class AnatomicalTemplate:
@@ -253,7 +254,12 @@ class ConfigParams:
         if self.vessel_settings.num_circumference_vertices < 10:
             print("Insufficient number of circumference vertices")
             return False
-        
+
+        if self.vessel_settings.inlet_profile not in ('plug', 'parabolic'):
+            print(f"Invalid inlet_profile: {self.vessel_settings.inlet_profile!r} "
+                  f"(expected 'plug' or 'parabolic')")
+            return False
+
         return True
     
     def print_summary(self) -> None:
@@ -279,6 +285,7 @@ class ConfigParams:
         print(f"  Number of Points: {self.vessel_settings.num_points}")
         print(f"  Circumference Vertices: {self.vessel_settings.num_circumference_vertices}")
         print(f"  Number of Cycles: {self.vessel_settings.num_cycles}")
+        print(f"  Inlet Profile: {self.vessel_settings.inlet_profile}")
         
         print("\nAnatomical Points:")
         for point in self.anatomical_points:

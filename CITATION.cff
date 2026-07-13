@@ -6,7 +6,17 @@ authors:
   - family-names: Nandurdikar
     given-names: Vijay
     # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add ORCID
-  # TODO: add co-authors (match the paper's author list)
+  - family-names: Tyagi
+    given-names: Aryan
+  - family-names: Canchi
+    given-names: Tejas
+  - family-names: Frangi
+    given-names: "Alejandro F."
+  - family-names: Revell
+    given-names: Alistair
+  - family-names: Harish
+    given-names: "Ajay B."
+  # TODO (optional): add ORCIDs for co-authors before Zenodo archiving
 repository-code: "https://github.com/VijayN10/synthetic-aorta-cfd-framework"
 license: MIT
 # TODO: after archiving to Zenodo, add the minted DOI here:
@@ -25,7 +35,16 @@ preferred-citation:
   authors:
     - family-names: Nandurdikar
       given-names: Vijay
-    # TODO: add co-authors
+    - family-names: Tyagi
+      given-names: Aryan
+    - family-names: Canchi
+      given-names: Tejas
+    - family-names: Frangi
+      given-names: "Alejandro F."
+    - family-names: Revell
+      given-names: Alistair
+    - family-names: Harish
+      given-names: "Ajay B."
   journal: "Royal Society Open Science"
   # doi: "10.1098/rsos.260428"  # TODO: confirm final article DOI
   year: 2026

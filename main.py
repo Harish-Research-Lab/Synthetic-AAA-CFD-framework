@@ -238,8 +238,11 @@ def main():
             base_case_name = config.base_name
             base_case_dir = config.paths.openfoam_dir / base_case_name
             
-            # Generate visualizations for base geometry
-            print("\nGenerating visualizations for base geometry...")
+            # Generate geometry metrics (and optional PNG visualizations) for base geometry
+            if config.vessel_settings.save_visualization_images:
+                print("\nGenerating visualizations for base geometry...")
+            else:
+                print("\nComputing geometry metrics for base geometry...")
             save_visualizations(
                 config,
                 perturbed_base_geometry,  # Use perturbed geometry for visualization
@@ -282,8 +285,11 @@ def main():
                         # Set up case directory for morphed geometry
                         case_dir = config.get_case_dir(successful_variations + 1)
                         
-                        # Generate visualizations for morphed geometry
-                        print("\nGenerating visualizations for morphed geometry...")
+                        # Generate geometry metrics (and optional PNG visualizations) for morphed geometry
+                        if config.vessel_settings.save_visualization_images:
+                            print("\nGenerating visualizations for morphed geometry...")
+                        else:
+                            print("\nComputing geometry metrics for morphed geometry...")
                         save_visualizations(
                             config,
                             perturbed_base_geometry,  # Original perturbed geometry for reference

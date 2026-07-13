@@ -20,15 +20,15 @@ class Demographics:
     """Demographics settings"""
     gender: str = 'F'
     age_group: str = '70-79'
-    stat_variant: int = 2
+    stat_variant: int = 10
     random_seed: Optional[int] = 42
-    custom_suffix: str = 'trial_of_locations'  # New field for custom identification
+    custom_suffix: str = 'your_prefix'  # New field for custom identification
 
 @dataclass
 class MorphingSettings:
     """Settings for geometric morphing"""
     enable_morphing: bool = True
-    num_variations: int = 2
+    num_variations: int = 10
     save_control_points: bool = False
     visualize_morphing: bool = False
     generate_cases: bool = True
@@ -50,6 +50,7 @@ class VesselSettings:
     num_circumference_vertices: int = 100
     perturbation_range: float = 0.15
     num_cycles: int = 4
+    save_visualization_images: bool = False
 
 @dataclass
 class AnatomicalTemplate:

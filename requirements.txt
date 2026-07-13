@@ -12,4 +12,5 @@ matplotlib==3.7.2
 seaborn==0.13.2
 scikit-learn==1.5.2
 trimesh==4.7.1
+networkx==3.2.1 
 openpyxl==3.1.5

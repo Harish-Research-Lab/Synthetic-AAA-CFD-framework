@@ -69,7 +69,7 @@ def get_matching_cases(source_dir: Path, gender: str, age_group: str, suffix: st
 
 def copy_and_zip_cases(gender: str, age_group: str, suffix: str):
     source_dir = Path("data/output/ofCases")
-    interior_file = Path(f"data/processed/bound_plots/{gender}_{age_group}_{suffix}/universal_interior_manual.txt")
+    interior_file = Path(f"data/processed/bound_plots/{gender}_{age_group}_{suffix}/manual_modified/universal_interior_manual.txt")
     
     if not interior_file.exists():
         raise FileNotFoundError(f"Interior cases file not found: {interior_file}")
@@ -98,7 +98,21 @@ def copy_and_zip_cases(gender: str, age_group: str, suffix: str):
     return interior_success and all_success
 
 if __name__ == "__main__":
+    # Pull the demographic + suffix from config.py so this matches whatever
+    # main.py generated and the Stage 2 hull selection just reported.
+    # Run from the repository root:
+    #   python analysis/zip_it.py
+    import sys
+    from pathlib import Path as _Path
+    sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))  # repo root
+    from config import ConfigParams
+
+    cfg = ConfigParams()
     try:
-        copy_and_zip_cases("F", "70-79", "prob_distribution")
+        copy_and_zip_cases(
+            cfg.demographics.gender,
+            cfg.demographics.age_group,
+            cfg.demographics.custom_suffix,
+        )
     except Exception as e:
         print(f"Error: {str(e)}")

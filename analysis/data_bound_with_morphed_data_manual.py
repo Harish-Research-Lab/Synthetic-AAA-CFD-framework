@@ -74,21 +74,24 @@ def collect_case_data(ofcases_dir: Path, gender: str, age_group: str, custom_suf
         'morphed': []
     }
     
-    # Construct the nested folder path
+    # Cases may be grouped inside a nested "{gender}_{age_group}_{suffix}_all_cases"
+    # folder (as produced by zip_it.py), or written flat directly under ofcases_dir
+    # (as main.py does). Prefer the nested folder if present, else scan ofcases_dir.
     nested_folder = ofcases_dir / f"{gender}_{age_group}_{custom_suffix}_all_cases"
-    
-    if not nested_folder.exists():
-        print(f"Warning: Folder not found: {nested_folder}")
+    search_dir = nested_folder if nested_folder.exists() else ofcases_dir
+
+    if not search_dir.exists():
+        print(f"Warning: cases directory not found: {search_dir}")
         return case_data
 
     # Escape plus sign if present in age_group
     age_group_pattern = age_group.replace('+', r'\+')
-    
+
     # Update patterns for base and morphed cases
     base_pattern = f"AAA_{gender}_{age_group_pattern}_stat_[0-9]+_{custom_suffix}$"
     morph_pattern = f"AAA_{gender}_{age_group_pattern}_stat_[0-9]+_{custom_suffix}_morph_[0-9]+"
-    
-    for case_dir in nested_folder.iterdir():
+
+    for case_dir in search_dir.iterdir():
         if not case_dir.is_dir():
             continue
             
@@ -620,12 +623,23 @@ def generate_parameter_plots_extended(
               f"{parameters[param1_key]['name']} (manual)")
 
 if __name__ == "__main__":
+    # Pull the demographic + suffix from config.py so this run automatically
+    # matches whatever main.py generated (single source of truth). To target a
+    # different population, change it once in config.py -- no edits needed here.
+    # Run from the repository root:
+    #   python analysis/data_bound_with_morphed_data_manual.py
+    import sys
+    from pathlib import Path as _Path
+    sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))  # repo root
+    from config import ConfigParams
+
+    cfg = ConfigParams()
     generate_parameter_plots_extended(
         data_path="data/input/aaa_data.xlsx",
         output_dir="data/processed/bound_plots",
         ofcases_dir="data/output/ofCases",
-        gender="M",
-        age_group="80+",
+        gender=cfg.demographics.gender,
+        age_group=cfg.demographics.age_group,
         hull_data_path="data/processed/convex_hull_metadata.json",
-        custom_suffix="prob_distribution"
+        custom_suffix=cfg.demographics.custom_suffix,
     )

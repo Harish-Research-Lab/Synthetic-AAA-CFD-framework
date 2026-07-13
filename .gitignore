@@ -19,3 +19,8 @@ postProcessing/
 # Editor
 .vscode/
 .idea/
+
+# Generated pipeline outputs
+data/output/ofCases/
+data/input/geometry/
+data/processed/bound_plots/*_your_prefix/

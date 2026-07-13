@@ -347,14 +347,19 @@ def save_visualizations(config: ConfigParams,
     """Generate and save all visualizations and metrics for a case."""
     vis_dir = case_dir / 'visualizations'
     vis_dir.mkdir(parents=True, exist_ok=True)
-    
+
+    # PNG renders are optional (config.vessel_settings.save_visualization_images);
+    # the geometry_metrics.json descriptors below are always written.
+    save_images = getattr(config.vessel_settings, 'save_visualization_images', True)
+
     # Plot anatomical points
-    plot_anatomical_points(
-        spline_points,
-        config.anatomical_points,
-        vis_dir / 'anatomical_points.png'
-    )
-    
+    if save_images:
+        plot_anatomical_points(
+            spline_points,
+            config.anatomical_points,
+            vis_dir / 'anatomical_points.png'
+        )
+
     # Calculate and store metrics for base geometry
     base_metrics = {
         'shape': calculate_shape_metrics(base_geometry['vertices'], base_geometry['faces']),
@@ -362,11 +367,12 @@ def save_visualizations(config: ConfigParams,
     }
     
     # Plot base geometry views with metrics
-    plot_orthogonal_views(
-        base_geometry,
-        vis_dir / 'base_geometry',
-        is_morphed=False
-    )
+    if save_images:
+        plot_orthogonal_views(
+            base_geometry,
+            vis_dir / 'base_geometry',
+            is_morphed=False
+        )
     
     # Initialize metrics dictionary
     metrics = {
@@ -408,18 +414,20 @@ def save_visualizations(config: ConfigParams,
         metrics['relative_changes'] = {k: float(v) for k, v in relative_changes.items()}
         
         # Plot morphed geometry views
-        plot_orthogonal_views(
-            morphed_geometry,
-            vis_dir / 'morphed_geometry',
-            is_morphed=True,
-            original_centerline=base_geometry['centerline3D']
-        )
-    
+        if save_images:
+            plot_orthogonal_views(
+                morphed_geometry,
+                vis_dir / 'morphed_geometry',
+                is_morphed=True,
+                original_centerline=base_geometry['centerline3D']
+            )
+
     # Plot velocity profile
-    plot_velocity_profile(
-        velocity_data,
-        vis_dir / 'velocity_profile.png'
-    )
+    if save_images:
+        plot_velocity_profile(
+            velocity_data,
+            vis_dir / 'velocity_profile.png'
+        )
     
     # Save metrics to JSON file
     import json

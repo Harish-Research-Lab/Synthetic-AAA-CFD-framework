@@ -67,16 +67,7 @@ def cleanAndRepeatCardiacCycle(inputCSV: str, numCycles: int) -> np.ndarray:
             next_cycle = cleaned_data.copy()
             next_cycle[:, 0] += i * total_time
             full_cycle_data = np.vstack((full_cycle_data, next_cycle))
-        
-        # # Plot velocity vs. time for the repeated cycles
-        # plt.figure(figsize=(10, 6))
-        # plt.plot(full_cycle_data[:, 0], full_cycle_data[:, 1], '-o')
-        # plt.xlabel('Time (s)')
-        # plt.ylabel('Velocity (m/s)')
-        # plt.title(f'Velocity vs Time - {numCycles} Cardiac Cycles')
-        # plt.grid(True)
-        # plt.show()
-        
+
         print('Processed and repeated cardiac cycles have been plotted.')
         
         return full_cycle_data

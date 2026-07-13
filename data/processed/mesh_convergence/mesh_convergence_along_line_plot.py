@@ -96,18 +96,7 @@ def plot_mesh_convergence(excel_file, sheet_name='Sheet5', output_dir='./plots')
         (30, 40, "Aneurysm Body"),
         (45, 50, "Bifurcation")
     ]
-    
-    # # Add subtle region annotations
-    # for start, end, label in regions:
-    #     if start < len(df) and end < len(df):
-    #         mid = (start + end) // 2
-    #         # Add a vertical span for the region
-    #         plt.axvspan(start, end, alpha=0.1, color='gray')
-    #         # Add a text label
-    #         y_pos = plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 0.95
-    #         plt.text(mid, y_pos, label, ha='center', fontsize=10, 
-    #                  bbox=dict(facecolor='white', alpha=0.7, boxstyle='round,pad=0.2'))
-    
+
     # Add plot formatting
     plt.xlabel('Position along Centerline', fontsize=14)
     plt.ylabel('Velocity (m/s)', fontsize=14)
@@ -149,12 +138,7 @@ def plot_mesh_convergence(excel_file, sheet_name='Sheet5', output_dir='./plots')
                      marker='o', 
                      markersize=4, 
                      markevery=5)
-    
-    # # Add region highlights similar to the main plot
-    # for start, end, label in regions:
-    #     if start < len(df) and end < len(df):
-    #         plt.axvspan(start, end, alpha=0.1, color='gray')
-    
+
     # Add plot formatting
     plt.xlabel('Position along Centerline', fontsize=14)
     plt.ylabel('Relative Difference (%)', fontsize=14)
@@ -416,18 +400,7 @@ def plot_mesh_convergence_with_ci(excel_file, sheet_name='Sheet5', output_dir='.
         (30, 40, "Aneurysm Body"),
         (45, 50, "Bifurcation")
     ]
-    
-    # # Add subtle region annotations
-    # for start, end, label in regions:
-    #     if start < len(df) and end < len(df):
-    #         mid = (start + end) // 2
-    #         # Add a vertical span for the region
-    #         plt.axvspan(start, end, alpha=0.1, color='gray')
-    #         # Add a text label
-    #         y_pos = plt.ylim()[0] + (plt.ylim()[1] - plt.ylim()[0]) * 0.95
-    #         plt.text(mid, y_pos, label, ha='center', fontsize=10, 
-    #                  bbox=dict(facecolor='white', alpha=0.7, boxstyle='round,pad=0.2'))
-    
+
     # Add plot formatting
     plt.xlabel('Position along Centerline', fontsize=14)
     plt.ylabel('Velocity (m/s)', fontsize=14)

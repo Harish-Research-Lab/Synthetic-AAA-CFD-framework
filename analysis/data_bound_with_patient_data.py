@@ -240,15 +240,7 @@ def plot_age_grouped_parameters_with_outliers(
         all_ids.extend(ids)
         all_regular_points_x.extend(x[regular_mask])
         all_regular_points_y.extend(y[regular_mask])
-    
-    # # Plot overall convex hull for non-outlier points only
-    # if len(all_regular_points_x) >= 3:
-    #     all_regular_points = np.column_stack((all_regular_points_x, all_regular_points_y))
-    #     hull = ConvexHull(all_regular_points)
-    #     for simplex in hull.simplices:
-    #         plt.plot(all_regular_points[simplex, 0], all_regular_points[simplex, 1],
-    #                 '-', color='black', alpha=0.2, linewidth=2)
-    
+
     plt.xlabel(f'{param1["name"]} (mm)')
     plt.ylabel(f'{param2["name"]} (mm)')
     title = f'{param2["name"]} vs {param1["name"]}\n'

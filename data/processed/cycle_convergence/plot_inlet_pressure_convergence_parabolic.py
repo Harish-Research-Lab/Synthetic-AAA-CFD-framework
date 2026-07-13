@@ -302,16 +302,6 @@ def main():
         ax.yaxis.set_minor_locator(mticker.AutoMinorLocator())
         ax.grid(True, which="major", linestyle=":", alpha=0.35, color="#999999")
         ax.legend(loc="upper right", framealpha=0.95, edgecolor="#cccccc")
-        # if show_annotation:
-        #     ax.text(
-        #         0.02, 0.04,
-        #         f"Max cycle 3–4 difference: {max_var_abs:.1f} Pa "
-        #         f"({max_var_pct:.1f}% of waveform amplitude)",
-        #         transform=ax.transAxes, fontsize=8.5,
-        #         va="bottom", ha="left",
-        #         bbox=dict(boxstyle="round,pad=0.35", facecolor="white",
-        #                   edgecolor="#aaaaaa", alpha=0.9),
-        #     )
 
     # =====================================================================
     # Figure 2: Full overlaid cycles

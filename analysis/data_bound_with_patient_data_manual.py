@@ -271,14 +271,6 @@ def plot_parameter_relationship_modified(
 
     # Add minor ticks between major ticks
     ax.tick_params(which='major', length=8, width=1, direction='out')
-    # ax.tick_params(which='minor', length=4, width=1, direction='out')
-    
-    # # Add minor ticks
-    # x_minor_ticks = np.arange(int(x_min), int(x_max) + 1, 1)
-    # y_minor_ticks = np.arange(int(y_min), int(y_max) + 1, 1)
-    
-    # ax.set_xticks(x_minor_ticks, minor=True)
-    # ax.set_yticks(y_minor_ticks, minor=True)
 
     plt.xlabel(f'{param1["name"]} (mm)')
     plt.ylabel(f'{param2["name"]} (mm)')
@@ -441,11 +433,6 @@ def plot_parameter_relationship_hulls_only(
 
     plt.xlabel(f'{param1["name"]} (mm)')
     plt.ylabel(f'{param2["name"]} (mm)')
-    
-    # plt.legend(loc='upper right',
-    #           fontsize=10,
-    #           frameon=True,
-    #           framealpha=0.5)
 
     plt.tight_layout()
     

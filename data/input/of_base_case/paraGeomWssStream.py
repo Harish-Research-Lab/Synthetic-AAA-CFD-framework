@@ -328,38 +328,3 @@ for time in times:
         Hide(tube, renderView)
         Hide(transform, renderView)
 
-    
-# # Create TAWSS visualizations
-# timestep_ranges = {
-#     'cycle1': [0, 18],    
-#     'cycle2': [18, 37],  
-#     'cycle3': [37, 56],   
-#     'cycle4': [56, 76]   
-# }
-
-# 	# Cycle 1:  t = 0.050 \, \text{to} \, 0.1325 , Steps 1–19
-# 	# Cycle 2:  t = 0.1325 \, \text{to} \, 0.215 , Steps 20–38
-# 	# Cycle 3:  t = 0.215 \, \text{to} \, 0.2975 , Steps 39–56
-# 	# Cycle 4:  t = 0.2975 \, \text{to} \, 0.3800 , Steps 57–75
-
-# # First find global TAWSS range across all timesteps
-# global_tawss_range = find_tawss_range(transforms, [0, 5])  # Using full time range
-
-# # Then create visualizations for each cycle
-# for cycle_name, timestep_range in timestep_ranges.items():
-#     for view_name, transform in transforms.items():
-#         cleanup_view(renderView)
-        
-#         temporalStats, statsDisplay, tawssLUT = create_tawss_visualization(transform, renderView, timestep_range)
-#         tawssLUT.RescaleTransferFunction(global_tawss_range[0], global_tawss_range[1])
-        
-#         reset_camera(renderView)
-#         save_view(renderView, f'tawss_{view_name}_{cycle_name}.png',
-#                  [-0.01922904932871461, -0.0646100237063365, 0.3015332296964253],
-#                  [-0.01922904932871461, -0.0646100237063365, -0.0015790509060025215],
-#                  0.0723292692450845)
-        
-#         Delete(statsDisplay)
-#         Delete(temporalStats)
-#         del statsDisplay
-#         del temporalStats

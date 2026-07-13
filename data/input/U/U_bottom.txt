@@ -1,0 +1,18 @@
+  );
+}
+
+outlet
+{
+    type        inletOutlet;
+    inletValue  uniform (0 0 0);
+    value       $internalField;
+}
+
+wall
+{
+type        noSlip;
+} 
+
+}
+
+// ************************************************************************* //

@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the associated paper."
+title: "Synthetic Aorta CFD Framework: virtual AAA population generation and hemodynamic analysis"
+type: software
+authors:
+  - family-names: Nandurdikar
+    given-names: Vijay
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add ORCID
+  # TODO: add co-authors (match the paper's author list)
+repository-code: "https://github.com/VijayN10/synthetic-aorta-cfd-framework"
+license: MIT
+# TODO: after archiving to Zenodo, add the minted DOI here:
+# doi: "10.5281/zenodo.XXXXXXX"
+version: "1.0.0"
+date-released: "2026-07-12"
+keywords:
+  - abdominal aortic aneurysm
+  - computational fluid dynamics
+  - OpenFOAM
+  - synthetic virtual population
+  - hemodynamic biomarkers
+preferred-citation:
+  type: article
+  title: "Virtual Population to Re-assess AAA Risk Using Neck Geometry and Shape Compactness Alongside Maximum Diameter"
+  authors:
+    - family-names: Nandurdikar
+      given-names: Vijay
+    # TODO: add co-authors
+  journal: "Royal Society Open Science"
+  # doi: "10.1098/rsos.260428"  # TODO: confirm final article DOI
+  year: 2026

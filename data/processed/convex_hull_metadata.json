@@ -1,0 +1,9283 @@
+[
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                25.0,
+                27.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                25.0,
+                27.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                24.1,
+                26.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                25.0,
+                27.5
+            ],
+            [
+                20.5,
+                22.7
+            ],
+            [
+                19.5,
+                21.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 8,
+        "convex_hull_points": [
+            [
+                22.0,
+                25.5
+            ],
+            [
+                20.5,
+                22.7
+            ],
+            [
+                20.5,
+                22.6
+            ],
+            [
+                21.0,
+                23.1
+            ],
+            [
+                23.0,
+                25.3
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                24.1,
+                26.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 84,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 84,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 84,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 79,
+        "convex_hull_points": [
+            [
+                30.3,
+                33.3
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ],
+            [
+                16.0,
+                17.6
+            ],
+            [
+                17.3,
+                18.3
+            ],
+            [
+                22.0,
+                21.6
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 65,
+        "convex_hull_points": [
+            [
+                27.0,
+                29.7
+            ],
+            [
+                25.5,
+                30.6
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.3,
+                20.7
+            ],
+            [
+                18.3,
+                20.1
+            ],
+            [
+                20.0,
+                21.0
+            ],
+            [
+                23.5,
+                24.0
+            ],
+            [
+                25.7,
+                27.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 78,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ],
+            [
+                28.5,
+                31.1
+            ],
+            [
+                28.5,
+                31.4
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 120,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                31.0,
+                34.1
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 120,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                31.0,
+                34.1
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 119,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                27.0,
+                29.5
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 109,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                21.0,
+                20.0
+            ],
+            [
+                24.5,
+                24.0
+            ],
+            [
+                27.0,
+                28.0
+            ],
+            [
+                27.0,
+                29.5
+            ],
+            [
+                26.6,
+                29.3
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 94,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.4
+            ],
+            [
+                18.0,
+                19.8
+            ],
+            [
+                18.5,
+                20.2
+            ],
+            [
+                20.1,
+                21.5
+            ],
+            [
+                22.5,
+                24.2
+            ],
+            [
+                24.2,
+                26.2
+            ],
+            [
+                27.0,
+                29.5
+            ],
+            [
+                26.6,
+                29.3
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                21.0,
+                23.2
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 120,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                31.0,
+                34.1
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                29.0,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                29.0,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 40,
+        "convex_hull_points": [
+            [
+                29.0,
+                26.0
+            ],
+            [
+                28.5,
+                31.4
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                29.0,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 27,
+        "convex_hull_points": [
+            [
+                18.5,
+                22.2
+            ],
+            [
+                19.0,
+                20.9
+            ],
+            [
+                24.0,
+                25.0
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                23.0,
+                27.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                29.0,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 258,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 256,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                31.0,
+                34.0
+            ],
+            [
+                31.0,
+                34.1
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 253,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                29.1,
+                31.7
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 233,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                21.0,
+                20.0
+            ],
+            [
+                24.5,
+                24.0
+            ],
+            [
+                28.0,
+                29.0
+            ],
+            [
+                30.3,
+                33.3
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 185,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                22.5,
+                24.2
+            ],
+            [
+                25.8,
+                28.0
+            ],
+            [
+                26.6,
+                29.3
+            ],
+            [
+                26.5,
+                29.5
+            ],
+            [
+                18.3,
+                20.7
+            ],
+            [
+                18.3,
+                20.1
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 251,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                32.0,
+                35.2
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                25.0,
+                27.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                25.0,
+                27.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                24.1,
+                26.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                25.0,
+                27.5
+            ],
+            [
+                20.5,
+                22.7
+            ],
+            [
+                19.5,
+                21.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 8,
+        "convex_hull_points": [
+            [
+                22.0,
+                25.5
+            ],
+            [
+                20.5,
+                22.7
+            ],
+            [
+                20.5,
+                22.6
+            ],
+            [
+                21.0,
+                23.1
+            ],
+            [
+                23.0,
+                25.3
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                18.5,
+                20.0
+            ],
+            [
+                24.1,
+                26.5
+            ],
+            [
+                22.0,
+                25.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 73,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 73,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 73,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 69,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                17.3,
+                18.3
+            ],
+            [
+                22.0,
+                21.6
+            ],
+            [
+                30.3,
+                33.3
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                19.5,
+                23.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 60,
+        "convex_hull_points": [
+            [
+                27.0,
+                29.7
+            ],
+            [
+                25.5,
+                30.6
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                19.5,
+                23.0
+            ],
+            [
+                18.3,
+                20.1
+            ],
+            [
+                20.0,
+                21.0
+            ],
+            [
+                23.5,
+                24.0
+            ],
+            [
+                25.7,
+                27.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 67,
+        "convex_hull_points": [
+            [
+                28.5,
+                31.1
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                21.5,
+                25.8
+            ],
+            [
+                18.3,
+                20.1
+            ],
+            [
+                17.3,
+                18.3
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                26.0,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 99,
+        "convex_hull_points": [
+            [
+                27.9,
+                25.1
+            ],
+            [
+                31.0,
+                34.1
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                17.5,
+                19.3
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                24.7,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 98,
+        "convex_hull_points": [
+            [
+                25.6,
+                30.7
+            ],
+            [
+                17.5,
+                19.3
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                27.0,
+                29.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 98,
+        "convex_hull_points": [
+            [
+                25.6,
+                30.7
+            ],
+            [
+                17.5,
+                19.3
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                27.0,
+                29.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 91,
+        "convex_hull_points": [
+            [
+                21.0,
+                23.2
+            ],
+            [
+                17.5,
+                19.3
+            ],
+            [
+                22.4,
+                22.0
+            ],
+            [
+                24.5,
+                24.0
+            ],
+            [
+                27.0,
+                28.0
+            ],
+            [
+                27.0,
+                29.5
+            ],
+            [
+                26.6,
+                29.3
+            ],
+            [
+                26.5,
+                29.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 70,
+        "convex_hull_points": [
+            [
+                18.0,
+                19.8
+            ],
+            [
+                23.0,
+                24.0
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                25.5,
+                28.1
+            ],
+            [
+                21.0,
+                23.2
+            ],
+            [
+                18.5,
+                20.4
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 99,
+        "convex_hull_points": [
+            [
+                27.9,
+                25.1
+            ],
+            [
+                31.0,
+                34.1
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                17.5,
+                19.3
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                24.7,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                27.5,
+                24.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                27.5,
+                24.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 37,
+        "convex_hull_points": [
+            [
+                31.0,
+                34.0
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                27.5,
+                24.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                27.5,
+                24.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 24,
+        "convex_hull_points": [
+            [
+                18.5,
+                22.2
+            ],
+            [
+                19.0,
+                20.9
+            ],
+            [
+                24.0,
+                25.0
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                23.0,
+                27.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                32.0,
+                35.2
+            ],
+            [
+                23.0,
+                27.5
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.0
+            ],
+            [
+                22.0,
+                19.8
+            ],
+            [
+                27.5,
+                24.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 222,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                32.5,
+                35.8
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 221,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                32.0,
+                35.2
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 215,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                17.3,
+                18.3
+            ],
+            [
+                21.0,
+                18.9
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                29.1,
+                31.7
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 202,
+        "convex_hull_points": [
+            [
+                17.0,
+                18.7
+            ],
+            [
+                17.3,
+                18.3
+            ],
+            [
+                22.0,
+                21.6
+            ],
+            [
+                24.5,
+                24.0
+            ],
+            [
+                28.0,
+                29.0
+            ],
+            [
+                30.3,
+                33.3
+            ],
+            [
+                25.6,
+                30.7
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 165,
+        "convex_hull_points": [
+            [
+                26.6,
+                29.3
+            ],
+            [
+                26.5,
+                29.5
+            ],
+            [
+                20.5,
+                22.7
+            ],
+            [
+                18.5,
+                20.4
+            ],
+            [
+                18.0,
+                19.8
+            ],
+            [
+                18.5,
+                20.0
+            ],
+            [
+                22.5,
+                24.2
+            ],
+            [
+                25.8,
+                28.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 215,
+        "convex_hull_points": [
+            [
+                17.3,
+                18.3
+            ],
+            [
+                18.0,
+                16.2
+            ],
+            [
+                24.7,
+                22.2
+            ],
+            [
+                27.9,
+                25.1
+            ],
+            [
+                32.0,
+                35.2
+            ],
+            [
+                27.5,
+                33.0
+            ],
+            [
+                24.5,
+                29.7
+            ],
+            [
+                18.5,
+                22.2
+            ],
+            [
+                17.5,
+                19.3
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                25.5,
+                23.0
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                18.3,
+                20.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                25.5,
+                23.0
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                18.3,
+                20.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 8,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                25.5,
+                23.0
+            ],
+            [
+                22.5,
+                24.8
+            ],
+            [
+                18.3,
+                20.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                25.5,
+                23.0
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                18.3,
+                20.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 6,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                20.0,
+                22.0
+            ],
+            [
+                18.3,
+                20.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                25.5,
+                23.0
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                18.3,
+                20.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                22.5,
+                20.5
+            ],
+            [
+                23.0,
+                21.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                22.5,
+                20.5
+            ],
+            [
+                23.0,
+                21.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 19,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                22.5,
+                20.5
+            ],
+            [
+                23.0,
+                21.0
+            ],
+            [
+                26.0,
+                28.5
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                22.5,
+                20.5
+            ],
+            [
+                23.0,
+                21.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 17,
+        "convex_hull_points": [
+            [
+                23.0,
+                21.0
+            ],
+            [
+                21.5,
+                23.7
+            ],
+            [
+                19.5,
+                23.4
+            ],
+            [
+                16.5,
+                18.2
+            ],
+            [
+                22.5,
+                20.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                18.2
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                22.5,
+                20.5
+            ],
+            [
+                23.0,
+                21.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                20.0,
+                22.0
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                23.5,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                20.0,
+                22.0
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                23.5,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                20.0,
+                22.0
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                23.5,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                20.0,
+                22.0
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                23.5,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                20.0,
+                22.0
+            ],
+            [
+                29.0,
+                26.0
+            ],
+            [
+                23.5,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                29.0,
+                26.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ],
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.3,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                29.0,
+                26.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ],
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.3,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 31,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                25.5,
+                23.0
+            ],
+            [
+                26.0,
+                28.5
+            ],
+            [
+                26.0,
+                28.6
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 33,
+        "convex_hull_points": [
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.3,
+                16.5
+            ],
+            [
+                25.5,
+                23.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 24,
+        "convex_hull_points": [
+            [
+                19.5,
+                23.4
+            ],
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.5,
+                20.2
+            ],
+            [
+                21.0,
+                22.9
+            ],
+            [
+                23.5,
+                26.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 1 vs Neck Diameter 2",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                29.0,
+                26.0
+            ],
+            [
+                26.5,
+                29.2
+            ],
+            [
+                19.5,
+                23.4
+            ],
+            [
+                16.0,
+                17.6
+            ],
+            [
+                18.3,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                27.5,
+                62.0
+            ],
+            [
+                25.3,
+                64.1
+            ],
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 10,
+        "convex_hull_points": [
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ],
+            [
+                22.6,
+                50.9
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 10,
+        "convex_hull_points": [
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ],
+            [
+                22.6,
+                50.9
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                27.5,
+                62.0
+            ],
+            [
+                25.3,
+                64.1
+            ],
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                21.5,
+                50.3
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ],
+            [
+                22.6,
+                50.9
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                26.5,
+                51.0
+            ],
+            [
+                25.3,
+                64.1
+            ],
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 84,
+        "convex_hull_points": [
+            [
+                35.8,
+                50.2
+            ],
+            [
+                30.8,
+                84.4
+            ],
+            [
+                23.0,
+                76.9
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 81,
+        "convex_hull_points": [
+            [
+                31.7,
+                68.5
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                35.8,
+                50.2
+            ],
+            [
+                33.3,
+                61.9
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 78,
+        "convex_hull_points": [
+            [
+                35.8,
+                50.2
+            ],
+            [
+                33.3,
+                61.9
+            ],
+            [
+                23.1,
+                63.4
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 80,
+        "convex_hull_points": [
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                31.4,
+                46.5
+            ],
+            [
+                33.0,
+                55.6
+            ],
+            [
+                33.3,
+                61.9
+            ],
+            [
+                31.7,
+                68.5
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 69,
+        "convex_hull_points": [
+            [
+                20.1,
+                57.9
+            ],
+            [
+                18.3,
+                52.0
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                31.4,
+                46.5
+            ],
+            [
+                29.9,
+                53.1
+            ],
+            [
+                28.6,
+                56.8
+            ],
+            [
+                26.4,
+                60.2
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 78,
+        "convex_hull_points": [
+            [
+                33.0,
+                55.6
+            ],
+            [
+                25.9,
+                76.8
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                31.4,
+                46.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 120,
+        "convex_hull_points": [
+            [
+                34.1,
+                60.2
+            ],
+            [
+                28.1,
+                86.5
+            ],
+            [
+                19.8,
+                82.0
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 117,
+        "convex_hull_points": [
+            [
+                34.1,
+                60.2
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 116,
+        "convex_hull_points": [
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.7,
+                55.8
+            ],
+            [
+                29.0,
+                63.1
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 115,
+        "convex_hull_points": [
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.7,
+                55.8
+            ],
+            [
+                29.0,
+                63.1
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ],
+            [
+                18.2,
+                49.2
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 100,
+        "convex_hull_points": [
+            [
+                30.7,
+                55.8
+            ],
+            [
+                26.5,
+                63.1
+            ],
+            [
+                23.0,
+                62.5
+            ],
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                20.0,
+                44.8
+            ],
+            [
+                20.4,
+                44.3
+            ],
+            [
+                22.8,
+                43.3
+            ],
+            [
+                27.5,
+                48.1
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 120,
+        "convex_hull_points": [
+            [
+                34.1,
+                60.2
+            ],
+            [
+                28.1,
+                86.5
+            ],
+            [
+                19.8,
+                82.0
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                35.2,
+                70.2
+            ],
+            [
+                22.6,
+                74.6
+            ],
+            [
+                21.5,
+                73.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 40,
+        "convex_hull_points": [
+            [
+                24.1,
+                71.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ],
+            [
+                35.2,
+                70.2
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 35,
+        "convex_hull_points": [
+            [
+                31.4,
+                60.1
+            ],
+            [
+                25.2,
+                60.2
+            ],
+            [
+                22.0,
+                57.5
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                30.8,
+                56.9
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                24.1,
+                71.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                30.8,
+                56.9
+            ],
+            [
+                31.4,
+                60.1
+            ],
+            [
+                31.4,
+                70.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 33,
+        "convex_hull_points": [
+            [
+                30.8,
+                56.9
+            ],
+            [
+                25.2,
+                60.2
+            ],
+            [
+                22.0,
+                57.5
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                26.0,
+                49.4
+            ],
+            [
+                29.2,
+                52.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                35.2,
+                70.2
+            ],
+            [
+                22.6,
+                74.6
+            ],
+            [
+                21.5,
+                73.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 258,
+        "convex_hull_points": [
+            [
+                19.8,
+                82.0
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                35.8,
+                50.2
+            ],
+            [
+                35.2,
+                70.2
+            ],
+            [
+                30.8,
+                84.4
+            ],
+            [
+                28.1,
+                86.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 249,
+        "convex_hull_points": [
+            [
+                21.5,
+                73.0
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                34.0,
+                49.9
+            ],
+            [
+                34.1,
+                60.2
+            ],
+            [
+                31.4,
+                70.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 243,
+        "convex_hull_points": [
+            [
+                16.2,
+                54.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                31.4,
+                46.5
+            ],
+            [
+                33.0,
+                55.6
+            ],
+            [
+                31.7,
+                68.5
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                17.6,
+                63.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 244,
+        "convex_hull_points": [
+            [
+                16.2,
+                54.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                31.4,
+                46.5
+            ],
+            [
+                33.0,
+                55.6
+            ],
+            [
+                33.3,
+                61.9
+            ],
+            [
+                28.6,
+                68.1
+            ],
+            [
+                24.1,
+                71.0
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                17.6,
+                63.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 203,
+        "convex_hull_points": [
+            [
+                29.9,
+                53.1
+            ],
+            [
+                29.3,
+                56.6
+            ],
+            [
+                26.5,
+                63.1
+            ],
+            [
+                24.8,
+                62.3
+            ],
+            [
+                20.1,
+                57.9
+            ],
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                29.7,
+                46.6
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 251,
+        "convex_hull_points": [
+            [
+                35.2,
+                70.2
+            ],
+            [
+                28.1,
+                86.5
+            ],
+            [
+                19.8,
+                82.0
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                34.0,
+                49.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                27.5,
+                62.0
+            ],
+            [
+                25.3,
+                64.1
+            ],
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 10,
+        "convex_hull_points": [
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ],
+            [
+                22.6,
+                50.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 10,
+        "convex_hull_points": [
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ],
+            [
+                22.6,
+                50.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                27.5,
+                62.0
+            ],
+            [
+                25.3,
+                64.1
+            ],
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                21.5,
+                50.3
+            ],
+            [
+                23.1,
+                43.6
+            ],
+            [
+                26.5,
+                51.0
+            ],
+            [
+                22.6,
+                50.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                26.5,
+                51.0
+            ],
+            [
+                25.3,
+                64.1
+            ],
+            [
+                21.5,
+                50.3
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                23.1,
+                43.6
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 73,
+        "convex_hull_points": [
+            [
+                35.8,
+                50.2
+            ],
+            [
+                30.8,
+                84.4
+            ],
+            [
+                23.0,
+                76.9
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 70,
+        "convex_hull_points": [
+            [
+                18.7,
+                67.7
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                35.8,
+                50.2
+            ],
+            [
+                33.3,
+                61.9
+            ],
+            [
+                31.7,
+                68.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 69,
+        "convex_hull_points": [
+            [
+                18.7,
+                67.7
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                35.8,
+                50.2
+            ],
+            [
+                33.3,
+                61.9
+            ],
+            [
+                21.6,
+                67.3
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 69,
+        "convex_hull_points": [
+            [
+                18.7,
+                67.7
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                33.0,
+                55.6
+            ],
+            [
+                33.3,
+                61.9
+            ],
+            [
+                31.7,
+                68.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 59,
+        "convex_hull_points": [
+            [
+                31.1,
+                53.1
+            ],
+            [
+                26.4,
+                60.2
+            ],
+            [
+                20.1,
+                57.9
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 67,
+        "convex_hull_points": [
+            [
+                33.0,
+                55.6
+            ],
+            [
+                25.9,
+                76.8
+            ],
+            [
+                21.6,
+                67.3
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                30.6,
+                44.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 99,
+        "convex_hull_points": [
+            [
+                34.1,
+                60.2
+            ],
+            [
+                28.1,
+                86.5
+            ],
+            [
+                19.8,
+                82.0
+            ],
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 95,
+        "convex_hull_points": [
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.7,
+                55.8
+            ],
+            [
+                29.0,
+                63.1
+            ],
+            [
+                21.5,
+                65.1
+            ],
+            [
+                19.8,
+                58.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 95,
+        "convex_hull_points": [
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.7,
+                55.8
+            ],
+            [
+                29.0,
+                63.1
+            ],
+            [
+                21.5,
+                65.1
+            ],
+            [
+                19.8,
+                58.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 95,
+        "convex_hull_points": [
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.7,
+                55.8
+            ],
+            [
+                29.0,
+                63.1
+            ],
+            [
+                21.5,
+                65.1
+            ],
+            [
+                19.8,
+                58.8
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 83,
+        "convex_hull_points": [
+            [
+                19.8,
+                58.8
+            ],
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                22.0,
+                44.0
+            ],
+            [
+                22.8,
+                43.3
+            ],
+            [
+                28.0,
+                44.8
+            ],
+            [
+                28.1,
+                50.1
+            ],
+            [
+                27.5,
+                59.4
+            ],
+            [
+                26.5,
+                63.1
+            ],
+            [
+                24.8,
+                62.3
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 99,
+        "convex_hull_points": [
+            [
+                34.1,
+                60.2
+            ],
+            [
+                28.1,
+                86.5
+            ],
+            [
+                19.8,
+                82.0
+            ],
+            [
+                19.3,
+                55.9
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                35.2,
+                70.2
+            ],
+            [
+                22.6,
+                74.6
+            ],
+            [
+                21.5,
+                73.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 36,
+        "convex_hull_points": [
+            [
+                24.1,
+                71.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ],
+            [
+                35.2,
+                70.2
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 32,
+        "convex_hull_points": [
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ],
+            [
+                31.4,
+                60.1
+            ],
+            [
+                25.2,
+                60.2
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 35,
+        "convex_hull_points": [
+            [
+                24.1,
+                71.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ],
+            [
+                31.4,
+                70.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 29,
+        "convex_hull_points": [
+            [
+                25.2,
+                60.2
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                29.2,
+                52.0
+            ],
+            [
+                30.8,
+                56.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                35.2,
+                70.2
+            ],
+            [
+                22.6,
+                74.6
+            ],
+            [
+                21.5,
+                73.0
+            ],
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                50.8
+            ],
+            [
+                22.0,
+                46.5
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                34.0,
+                49.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 222,
+        "convex_hull_points": [
+            [
+                19.8,
+                82.0
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                35.8,
+                50.2
+            ],
+            [
+                35.2,
+                70.2
+            ],
+            [
+                30.8,
+                84.4
+            ],
+            [
+                28.1,
+                86.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 215,
+        "convex_hull_points": [
+            [
+                35.2,
+                70.2
+            ],
+            [
+                22.6,
+                74.6
+            ],
+            [
+                21.5,
+                73.0
+            ],
+            [
+                18.7,
+                67.7
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                34.0,
+                49.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 205,
+        "convex_hull_points": [
+            [
+                18.7,
+                67.7
+            ],
+            [
+                18.3,
+                52.0
+            ],
+            [
+                18.9,
+                47.4
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                31.1,
+                53.1
+            ],
+            [
+                31.4,
+                60.1
+            ],
+            [
+                31.7,
+                68.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 208,
+        "convex_hull_points": [
+            [
+                16.2,
+                54.5
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                33.0,
+                55.6
+            ],
+            [
+                33.3,
+                61.9
+            ],
+            [
+                31.7,
+                68.5
+            ],
+            [
+                24.1,
+                71.0
+            ],
+            [
+                21.6,
+                67.3
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 178,
+        "convex_hull_points": [
+            [
+                19.0,
+                54.8
+            ],
+            [
+                19.8,
+                46.6
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                27.0,
+                43.7
+            ],
+            [
+                29.7,
+                46.6
+            ],
+            [
+                29.9,
+                53.1
+            ],
+            [
+                29.3,
+                56.6
+            ],
+            [
+                28.1,
+                61.1
+            ],
+            [
+                27.5,
+                62.0
+            ],
+            [
+                26.5,
+                63.1
+            ],
+            [
+                24.8,
+                62.3
+            ],
+            [
+                20.1,
+                57.9
+            ],
+            [
+                19.3,
+                55.9
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 215,
+        "convex_hull_points": [
+            [
+                35.2,
+                70.2
+            ],
+            [
+                28.1,
+                86.5
+            ],
+            [
+                19.8,
+                82.0
+            ],
+            [
+                16.2,
+                54.5
+            ],
+            [
+                20.0,
+                42.6
+            ],
+            [
+                21.5,
+                41.7
+            ],
+            [
+                23.7,
+                40.4
+            ],
+            [
+                28.6,
+                41.5
+            ],
+            [
+                30.6,
+                44.0
+            ],
+            [
+                34.0,
+                49.9
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                28.6,
+                48.7
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                18.7,
+                51.5
+            ],
+            [
+                19.3,
+                50.1
+            ],
+            [
+                20.7,
+                47.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 8,
+        "convex_hull_points": [
+            [
+                23.0,
+                55.0
+            ],
+            [
+                18.7,
+                51.5
+            ],
+            [
+                19.3,
+                50.1
+            ],
+            [
+                20.7,
+                47.4
+            ],
+            [
+                28.6,
+                48.7
+            ],
+            [
+                24.8,
+                53.3
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 7,
+        "convex_hull_points": [
+            [
+                23.0,
+                55.0
+            ],
+            [
+                18.7,
+                51.5
+            ],
+            [
+                19.3,
+                50.1
+            ],
+            [
+                20.7,
+                47.4
+            ],
+            [
+                22.0,
+                47.9
+            ],
+            [
+                24.8,
+                53.3
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                28.6,
+                48.7
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                18.7,
+                51.5
+            ],
+            [
+                19.3,
+                50.1
+            ],
+            [
+                20.7,
+                47.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 7,
+        "convex_hull_points": [
+            [
+                23.0,
+                55.0
+            ],
+            [
+                18.7,
+                51.5
+            ],
+            [
+                19.3,
+                50.1
+            ],
+            [
+                20.7,
+                47.4
+            ],
+            [
+                22.0,
+                47.9
+            ],
+            [
+                24.8,
+                53.3
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                28.6,
+                48.7
+            ],
+            [
+                17.6,
+                63.5
+            ],
+            [
+                18.7,
+                51.5
+            ],
+            [
+                19.3,
+                50.1
+            ],
+            [
+                20.7,
+                47.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 18,
+        "convex_hull_points": [
+            [
+                20.2,
+                63.7
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                28.5,
+                51.5
+            ],
+            [
+                23.0,
+                62.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 17,
+        "convex_hull_points": [
+            [
+                18.2,
+                49.2
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                23.4,
+                46.7
+            ],
+            [
+                23.7,
+                48.8
+            ],
+            [
+                23.7,
+                54.2
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ],
+            [
+                20.2,
+                63.7
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                26.0,
+                58.2
+            ],
+            [
+                22.0,
+                57.5
+            ],
+            [
+                22.9,
+                53.4
+            ],
+            [
+                26.0,
+                49.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                26.0,
+                58.2
+            ],
+            [
+                22.0,
+                57.5
+            ],
+            [
+                22.9,
+                53.4
+            ],
+            [
+                26.0,
+                49.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                26.0,
+                58.2
+            ],
+            [
+                22.0,
+                57.5
+            ],
+            [
+                22.9,
+                53.4
+            ],
+            [
+                26.0,
+                49.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                26.0,
+                58.2
+            ],
+            [
+                22.0,
+                57.5
+            ],
+            [
+                22.9,
+                53.4
+            ],
+            [
+                26.0,
+                49.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                26.0,
+                58.2
+            ],
+            [
+                22.0,
+                57.5
+            ],
+            [
+                22.9,
+                53.4
+            ],
+            [
+                26.0,
+                49.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 31,
+        "convex_hull_points": [
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                28.6,
+                48.7
+            ],
+            [
+                28.5,
+                51.5
+            ],
+            [
+                26.0,
+                58.2
+            ],
+            [
+                23.0,
+                62.5
+            ],
+            [
+                20.2,
+                63.7
+            ],
+            [
+                17.6,
+                63.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 24,
+        "convex_hull_points": [
+            [
+                20.5,
+                61.2
+            ],
+            [
+                18.2,
+                49.2
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                26.0,
+                49.4
+            ],
+            [
+                24.8,
+                53.3
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Neck Diameter 2 vs Maximum Aneurysm Diameter",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                17.6,
+                63.5
+            ],
+            [
+                16.5,
+                42.4
+            ],
+            [
+                21.0,
+                40.3
+            ],
+            [
+                29.2,
+                47.4
+            ],
+            [
+                29.2,
+                54.0
+            ],
+            [
+                23.1,
+                69.1
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                48.1,
+                34.5
+            ],
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                64.1,
+                18.5
+            ],
+            [
+                62.0,
+                30.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                50.3,
+                16.5
+            ],
+            [
+                50.9,
+                18.5
+            ],
+            [
+                51.0,
+                21.5
+            ],
+            [
+                47.9,
+                19.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                50.3,
+                16.5
+            ],
+            [
+                50.9,
+                18.5
+            ],
+            [
+                51.0,
+                21.5
+            ],
+            [
+                47.9,
+                19.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                48.1,
+                34.5
+            ],
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                64.1,
+                18.5
+            ],
+            [
+                62.0,
+                30.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                50.3,
+                16.5
+            ],
+            [
+                50.9,
+                18.5
+            ],
+            [
+                51.0,
+                21.5
+            ],
+            [
+                47.9,
+                19.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "50-59",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                48.1,
+                34.5
+            ],
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                64.1,
+                18.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 84,
+        "convex_hull_points": [
+            [
+                84.4,
+                15.5
+            ],
+            [
+                76.9,
+                46.5
+            ],
+            [
+                67.7,
+                41.0
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                43.6,
+                21.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 80,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                68.5,
+                15.0
+            ],
+            [
+                67.3,
+                17.0
+            ],
+            [
+                60.2,
+                28.0
+            ],
+            [
+                55.6,
+                32.0
+            ],
+            [
+                55.2,
+                32.0
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                43.6,
+                21.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 76,
+        "convex_hull_points": [
+            [
+                60.2,
+                28.0
+            ],
+            [
+                51.3,
+                29.5
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                43.6,
+                21.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                63.5,
+                14.5
+            ],
+            [
+                63.4,
+                16.5
+            ],
+            [
+                61.9,
+                24.4
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 80,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                68.5,
+                15.0
+            ],
+            [
+                67.3,
+                17.0
+            ],
+            [
+                60.2,
+                28.0
+            ],
+            [
+                55.6,
+                32.0
+            ],
+            [
+                55.2,
+                32.0
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                43.6,
+                21.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 67,
+        "convex_hull_points": [
+            [
+                43.6,
+                21.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                49.0,
+                11.5
+            ],
+            [
+                53.1,
+                13.5
+            ],
+            [
+                57.1,
+                17.0
+            ],
+            [
+                57.9,
+                20.5
+            ],
+            [
+                55.1,
+                27.5
+            ],
+            [
+                51.3,
+                29.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 78,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                63.5,
+                14.5
+            ],
+            [
+                76.8,
+                20.0
+            ],
+            [
+                55.6,
+                32.0
+            ],
+            [
+                55.2,
+                32.0
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                43.6,
+                21.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 120,
+        "convex_hull_points": [
+            [
+                82.0,
+                15.0
+            ],
+            [
+                86.5,
+                22.3
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                58.4,
+                36.4
+            ],
+            [
+                47.9,
+                39.0
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 115,
+        "convex_hull_points": [
+            [
+                69.1,
+                14.5
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                57.6,
+                35.0
+            ],
+            [
+                53.1,
+                34.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 115,
+        "convex_hull_points": [
+            [
+                69.1,
+                14.5
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                57.6,
+                35.0
+            ],
+            [
+                53.1,
+                34.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 115,
+        "convex_hull_points": [
+            [
+                69.1,
+                14.5
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                57.6,
+                35.0
+            ],
+            [
+                53.1,
+                34.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 95,
+        "convex_hull_points": [
+            [
+                63.7,
+                25.0
+            ],
+            [
+                63.1,
+                27.0
+            ],
+            [
+                47.8,
+                26.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                44.0,
+                14.5
+            ],
+            [
+                44.3,
+                14.0
+            ],
+            [
+                44.8,
+                13.5
+            ],
+            [
+                46.8,
+                13.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 120,
+        "convex_hull_points": [
+            [
+                82.0,
+                15.0
+            ],
+            [
+                86.5,
+                22.3
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                58.4,
+                36.4
+            ],
+            [
+                47.9,
+                39.0
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                74.6,
+                32.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                73.0,
+                14.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 39,
+        "convex_hull_points": [
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ],
+            [
+                70.0,
+                22.5
+            ],
+            [
+                71.0,
+                34.0
+            ],
+            [
+                46.5,
+                29.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 35,
+        "convex_hull_points": [
+            [
+                60.2,
+                15.5
+            ],
+            [
+                60.1,
+                30.0
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 39,
+        "convex_hull_points": [
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ],
+            [
+                70.0,
+                22.5
+            ],
+            [
+                71.0,
+                34.0
+            ],
+            [
+                46.5,
+                29.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 33,
+        "convex_hull_points": [
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ],
+            [
+                60.2,
+                15.5
+            ],
+            [
+                58.2,
+                21.7
+            ],
+            [
+                55.5,
+                28.0
+            ],
+            [
+                49.9,
+                24.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 42,
+        "convex_hull_points": [
+            [
+                74.6,
+                32.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                73.0,
+                14.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 258,
+        "convex_hull_points": [
+            [
+                86.5,
+                22.3
+            ],
+            [
+                76.9,
+                46.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                47.9,
+                39.0
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                82.0,
+                15.0
+            ],
+            [
+                84.4,
+                15.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 243,
+        "convex_hull_points": [
+            [
+                73.0,
+                14.0
+            ],
+            [
+                70.2,
+                25.0
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                54.9,
+                32.5
+            ],
+            [
+                51.3,
+                32.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 238,
+        "convex_hull_points": [
+            [
+                69.1,
+                14.5
+            ],
+            [
+                68.1,
+                25.0
+            ],
+            [
+                62.0,
+                30.0
+            ],
+            [
+                55.6,
+                32.0
+            ],
+            [
+                51.3,
+                32.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 244,
+        "convex_hull_points": [
+            [
+                70.2,
+                25.0
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                57.6,
+                35.0
+            ],
+            [
+                53.1,
+                34.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                69.1,
+                14.5
+            ],
+            [
+                70.0,
+                22.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 201,
+        "convex_hull_points": [
+            [
+                65.1,
+                16.0
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                55.5,
+                28.0
+            ],
+            [
+                54.4,
+                28.0
+            ],
+            [
+                45.1,
+                21.6
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                49.0,
+                11.5
+            ],
+            [
+                60.9,
+                13.0
+            ],
+            [
+                63.5,
+                14.5
+            ]
+        ]
+    },
+    {
+        "gender": "All",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 251,
+        "convex_hull_points": [
+            [
+                82.0,
+                15.0
+            ],
+            [
+                86.5,
+                22.3
+            ],
+            [
+                74.6,
+                32.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                47.9,
+                39.0
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                48.1,
+                34.5
+            ],
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                64.1,
+                18.5
+            ],
+            [
+                62.0,
+                30.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                50.3,
+                16.5
+            ],
+            [
+                50.9,
+                18.5
+            ],
+            [
+                51.0,
+                21.5
+            ],
+            [
+                47.9,
+                19.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                50.3,
+                16.5
+            ],
+            [
+                50.9,
+                18.5
+            ],
+            [
+                51.0,
+                21.5
+            ],
+            [
+                47.9,
+                19.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 12,
+        "convex_hull_points": [
+            [
+                48.1,
+                34.5
+            ],
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                64.1,
+                18.5
+            ],
+            [
+                62.0,
+                30.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                50.3,
+                16.5
+            ],
+            [
+                50.9,
+                18.5
+            ],
+            [
+                51.0,
+                21.5
+            ],
+            [
+                47.9,
+                19.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "50-59",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 11,
+        "convex_hull_points": [
+            [
+                48.1,
+                34.5
+            ],
+            [
+                42.6,
+                15.5
+            ],
+            [
+                48.5,
+                15.5
+            ],
+            [
+                64.1,
+                18.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 73,
+        "convex_hull_points": [
+            [
+                84.4,
+                15.5
+            ],
+            [
+                76.9,
+                46.5
+            ],
+            [
+                67.7,
+                41.0
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 67,
+        "convex_hull_points": [
+            [
+                60.2,
+                28.0
+            ],
+            [
+                51.3,
+                29.5
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                68.5,
+                15.0
+            ],
+            [
+                67.3,
+                17.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 66,
+        "convex_hull_points": [
+            [
+                67.3,
+                17.0
+            ],
+            [
+                60.2,
+                28.0
+            ],
+            [
+                51.3,
+                29.5
+            ],
+            [
+                48.8,
+                29.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                49.0,
+                11.5
+            ],
+            [
+                62.1,
+                15.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 69,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                68.5,
+                15.0
+            ],
+            [
+                67.3,
+                17.0
+            ],
+            [
+                60.2,
+                28.0
+            ],
+            [
+                55.6,
+                32.0
+            ],
+            [
+                55.2,
+                32.0
+            ],
+            [
+                48.8,
+                29.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 57,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                49.0,
+                11.5
+            ],
+            [
+                53.1,
+                13.5
+            ],
+            [
+                57.1,
+                17.0
+            ],
+            [
+                57.9,
+                20.5
+            ],
+            [
+                55.1,
+                27.5
+            ],
+            [
+                51.3,
+                29.5
+            ],
+            [
+                48.0,
+                26.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 67,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                49.0,
+                11.5
+            ],
+            [
+                62.1,
+                15.0
+            ],
+            [
+                76.8,
+                20.0
+            ],
+            [
+                55.6,
+                32.0
+            ],
+            [
+                55.2,
+                32.0
+            ],
+            [
+                48.8,
+                29.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 99,
+        "convex_hull_points": [
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                44.7,
+                14.0
+            ],
+            [
+                46.8,
+                13.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                82.0,
+                15.0
+            ],
+            [
+                86.5,
+                22.3
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                58.4,
+                36.4
+            ],
+            [
+                47.9,
+                39.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 94,
+        "convex_hull_points": [
+            [
+                65.1,
+                16.0
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                57.6,
+                35.0
+            ],
+            [
+                53.1,
+                34.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                44.7,
+                14.0
+            ],
+            [
+                46.8,
+                13.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                60.9,
+                13.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 93,
+        "convex_hull_points": [
+            [
+                65.1,
+                16.0
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                53.1,
+                34.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                44.7,
+                14.0
+            ],
+            [
+                46.8,
+                13.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                60.9,
+                13.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 94,
+        "convex_hull_points": [
+            [
+                65.1,
+                16.0
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                57.6,
+                35.0
+            ],
+            [
+                53.1,
+                34.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                44.7,
+                14.0
+            ],
+            [
+                46.8,
+                13.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                60.9,
+                13.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 80,
+        "convex_hull_points": [
+            [
+                59.4,
+                26.5
+            ],
+            [
+                49.9,
+                27.0
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                41.5,
+                17.0
+            ],
+            [
+                44.0,
+                14.5
+            ],
+            [
+                44.7,
+                14.0
+            ],
+            [
+                46.8,
+                13.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                60.9,
+                13.0
+            ],
+            [
+                63.1,
+                16.0
+            ],
+            [
+                62.3,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 99,
+        "convex_hull_points": [
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                44.7,
+                14.0
+            ],
+            [
+                46.8,
+                13.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                82.0,
+                15.0
+            ],
+            [
+                86.5,
+                22.3
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                58.4,
+                36.4
+            ],
+            [
+                47.9,
+                39.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                74.6,
+                32.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                73.0,
+                14.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 35,
+        "convex_hull_points": [
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ],
+            [
+                70.0,
+                22.5
+            ],
+            [
+                71.0,
+                34.0
+            ],
+            [
+                46.5,
+                29.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 31,
+        "convex_hull_points": [
+            [
+                60.2,
+                15.5
+            ],
+            [
+                60.1,
+                30.0
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 36,
+        "convex_hull_points": [
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ],
+            [
+                70.0,
+                22.5
+            ],
+            [
+                74.6,
+                32.5
+            ],
+            [
+                71.0,
+                34.0
+            ],
+            [
+                46.5,
+                29.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 29,
+        "convex_hull_points": [
+            [
+                60.2,
+                15.5
+            ],
+            [
+                55.5,
+                28.0
+            ],
+            [
+                49.9,
+                24.0
+            ],
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                59.0,
+                14.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 38,
+        "convex_hull_points": [
+            [
+                74.6,
+                32.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.7,
+                16.5
+            ],
+            [
+                49.9,
+                13.1
+            ],
+            [
+                73.0,
+                14.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 222,
+        "convex_hull_points": [
+            [
+                86.5,
+                22.3
+            ],
+            [
+                76.9,
+                46.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                47.9,
+                39.0
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                82.0,
+                15.0
+            ],
+            [
+                84.4,
+                15.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 208,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                73.0,
+                14.0
+            ],
+            [
+                74.6,
+                32.5
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                51.3,
+                32.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 204,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                60.9,
+                13.0
+            ],
+            [
+                68.5,
+                15.0
+            ],
+            [
+                68.1,
+                25.0
+            ],
+            [
+                64.2,
+                33.5
+            ],
+            [
+                51.3,
+                32.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                46.5,
+                29.5
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 210,
+        "convex_hull_points": [
+            [
+                58.4,
+                36.4
+            ],
+            [
+                48.1,
+                34.5
+            ],
+            [
+                43.3,
+                25.5
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                56.5,
+                12.0
+            ],
+            [
+                60.9,
+                13.0
+            ],
+            [
+                68.5,
+                15.0
+            ],
+            [
+                70.0,
+                22.5
+            ],
+            [
+                70.2,
+                25.0
+            ],
+            [
+                64.2,
+                33.5
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 185,
+        "convex_hull_points": [
+            [
+                40.4,
+                14.5
+            ],
+            [
+                49.0,
+                11.5
+            ],
+            [
+                60.9,
+                13.0
+            ],
+            [
+                65.1,
+                16.0
+            ],
+            [
+                62.3,
+                23.5
+            ],
+            [
+                61.9,
+                24.4
+            ],
+            [
+                59.4,
+                26.5
+            ],
+            [
+                51.6,
+                30.0
+            ],
+            [
+                48.6,
+                31.0
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ]
+        ]
+    },
+    {
+        "gender": "M",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 215,
+        "convex_hull_points": [
+            [
+                82.0,
+                15.0
+            ],
+            [
+                86.5,
+                22.3
+            ],
+            [
+                74.6,
+                32.5
+            ],
+            [
+                55.9,
+                42.5
+            ],
+            [
+                47.9,
+                39.0
+            ],
+            [
+                40.7,
+                18.5
+            ],
+            [
+                40.4,
+                17.0
+            ],
+            [
+                40.4,
+                14.5
+            ],
+            [
+                46.7,
+                11.0
+            ],
+            [
+                56.5,
+                12.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                63.5,
+                14.5
+            ],
+            [
+                55.0,
+                22.0
+            ],
+            [
+                50.1,
+                20.0
+            ],
+            [
+                48.6,
+                18.5
+            ],
+            [
+                47.4,
+                15.5
+            ],
+            [
+                47.9,
+                14.0
+            ],
+            [
+                48.7,
+                12.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 8,
+        "convex_hull_points": [
+            [
+                55.0,
+                22.0
+            ],
+            [
+                50.1,
+                20.0
+            ],
+            [
+                48.6,
+                18.5
+            ],
+            [
+                47.4,
+                15.5
+            ],
+            [
+                47.9,
+                14.0
+            ],
+            [
+                48.7,
+                12.4
+            ],
+            [
+                51.5,
+                15.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 8,
+        "convex_hull_points": [
+            [
+                55.0,
+                22.0
+            ],
+            [
+                50.1,
+                20.0
+            ],
+            [
+                48.6,
+                18.5
+            ],
+            [
+                47.4,
+                15.5
+            ],
+            [
+                47.9,
+                14.0
+            ],
+            [
+                48.7,
+                12.4
+            ],
+            [
+                51.5,
+                15.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                63.5,
+                14.5
+            ],
+            [
+                55.0,
+                22.0
+            ],
+            [
+                50.1,
+                20.0
+            ],
+            [
+                48.6,
+                18.5
+            ],
+            [
+                47.4,
+                15.5
+            ],
+            [
+                47.9,
+                14.0
+            ],
+            [
+                48.7,
+                12.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 7,
+        "convex_hull_points": [
+            [
+                53.3,
+                19.0
+            ],
+            [
+                50.1,
+                20.0
+            ],
+            [
+                48.6,
+                18.5
+            ],
+            [
+                47.4,
+                15.5
+            ],
+            [
+                47.9,
+                14.0
+            ],
+            [
+                48.7,
+                12.4
+            ],
+            [
+                51.5,
+                15.0
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "60-69",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 9,
+        "convex_hull_points": [
+            [
+                63.5,
+                14.5
+            ],
+            [
+                55.0,
+                22.0
+            ],
+            [
+                50.1,
+                20.0
+            ],
+            [
+                48.6,
+                18.5
+            ],
+            [
+                47.4,
+                15.5
+            ],
+            [
+                47.9,
+                14.0
+            ],
+            [
+                48.7,
+                12.4
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                54.9,
+                32.5
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                69.1,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 20,
+        "convex_hull_points": [
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                69.1,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ],
+            [
+                51.5,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 19,
+        "convex_hull_points": [
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ],
+            [
+                51.5,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 19,
+        "convex_hull_points": [
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ],
+            [
+                51.5,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 16,
+        "convex_hull_points": [
+            [
+                51.5,
+                23.5
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                49.2,
+                13.0
+            ],
+            [
+                55.3,
+                15.5
+            ],
+            [
+                54.2,
+                19.5
+            ],
+            [
+                54.0,
+                20.2
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "70-79",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 21,
+        "convex_hull_points": [
+            [
+                54.9,
+                32.5
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                69.1,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                58.2,
+                21.7
+            ],
+            [
+                49.4,
+                19.6
+            ],
+            [
+                53.4,
+                15.8
+            ],
+            [
+                57.5,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                58.2,
+                21.7
+            ],
+            [
+                49.4,
+                19.6
+            ],
+            [
+                53.4,
+                15.8
+            ],
+            [
+                57.5,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                58.2,
+                21.7
+            ],
+            [
+                49.4,
+                19.6
+            ],
+            [
+                53.4,
+                15.8
+            ],
+            [
+                57.5,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                58.2,
+                21.7
+            ],
+            [
+                49.4,
+                19.6
+            ],
+            [
+                53.4,
+                15.8
+            ],
+            [
+                57.5,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "80+",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 4,
+        "convex_hull_points": [
+            [
+                58.2,
+                21.7
+            ],
+            [
+                49.4,
+                19.6
+            ],
+            [
+                53.4,
+                15.8
+            ],
+            [
+                57.5,
+                16.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "no_outliers",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                54.9,
+                32.5
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                69.1,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "zscore",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 33,
+        "convex_hull_points": [
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                69.1,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ],
+            [
+                51.5,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "iqr",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 32,
+        "convex_hull_points": [
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                63.5,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ],
+            [
+                51.5,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "mahalanobis",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 32,
+        "convex_hull_points": [
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                63.5,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ],
+            [
+                51.5,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "dbscan",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 28,
+        "convex_hull_points": [
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                48.7,
+                12.4
+            ],
+            [
+                57.5,
+                16.5
+            ],
+            [
+                58.2,
+                21.7
+            ],
+            [
+                51.5,
+                23.5
+            ]
+        ]
+    },
+    {
+        "gender": "F",
+        "age_group": "All",
+        "outlier_method": "manual",
+        "parameter_comparison": "Maximum Aneurysm Diameter vs Distal Diameter",
+        "group_size": 34,
+        "convex_hull_points": [
+            [
+                54.9,
+                32.5
+            ],
+            [
+                40.3,
+                15.3
+            ],
+            [
+                42.4,
+                10.5
+            ],
+            [
+                61.2,
+                12.0
+            ],
+            [
+                69.1,
+                14.5
+            ],
+            [
+                63.7,
+                25.0
+            ],
+            [
+                62.5,
+                26.5
+            ]
+        ]
+    }
+]

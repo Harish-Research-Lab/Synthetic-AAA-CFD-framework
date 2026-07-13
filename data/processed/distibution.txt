@@ -1,0 +1,94 @@
+Processing gender: All
+  Processing age group: All
+    Proximal Neck Diameter: weibull_min (n=258)
+    Distal Neck Diameter: lognorm (n=258)
+    Maximum Aneurysm Diameter: lognorm (n=258)
+    Distal Diameter: lognorm (n=258)
+  Processing age group: <50
+    Insufficient data for All, <50: 0 samples
+  Processing age group: 50-59
+    Proximal Neck Diameter: weibull_min (n=12)
+    Distal Neck Diameter: gamma (n=12)
+    Maximum Aneurysm Diameter: weibull_min (n=12)
+    Distal Diameter: weibull_min (n=12)
+  Processing age group: 60-69
+    Proximal Neck Diameter: weibull_min (n=84)
+    Distal Neck Diameter: gamma (n=84)
+    Maximum Aneurysm Diameter: lognorm (n=84)
+    Distal Diameter: lognorm (n=84)
+  Processing age group: 70-79
+    Proximal Neck Diameter: weibull_min (n=120)
+    Distal Neck Diameter: weibull_min (n=120)
+    Maximum Aneurysm Diameter: gamma (n=120)
+    Distal Diameter: weibull_min (n=120)
+  Processing age group: 80+
+    Proximal Neck Diameter: weibull_min (n=42)
+    Distal Neck Diameter: lognorm (n=42)
+    Maximum Aneurysm Diameter: lognorm (n=42)
+    Distal Diameter: gamma (n=42)
+
+Processing gender: M
+  Processing age group: All
+    Proximal Neck Diameter: weibull_min (n=222)
+    Distal Neck Diameter: lognorm (n=222)
+    Maximum Aneurysm Diameter: lognorm (n=222)
+    Distal Diameter: lognorm (n=222)
+  Processing age group: <50
+    Insufficient data for M, <50: 0 samples
+  Processing age group: 50-59
+    Proximal Neck Diameter: weibull_min (n=12)
+    Distal Neck Diameter: gamma (n=12)
+    Maximum Aneurysm Diameter: weibull_min (n=12)
+    Distal Diameter: weibull_min (n=12)
+  Processing age group: 60-69
+    Proximal Neck Diameter: gamma (n=73)
+    Distal Neck Diameter: gamma (n=73)
+    Maximum Aneurysm Diameter: lognorm (n=73)
+    Distal Diameter: lognorm (n=73)
+  Processing age group: 70-79
+    Proximal Neck Diameter: norm (n=99)
+    Distal Neck Diameter: weibull_min (n=99)
+    Maximum Aneurysm Diameter: gamma (n=99)
+    Distal Diameter: lognorm (n=99)
+  Processing age group: 80+
+    Proximal Neck Diameter: weibull_min (n=38)
+    Distal Neck Diameter: lognorm (n=38)
+    Maximum Aneurysm Diameter: lognorm (n=38)
+    Distal Diameter: weibull_min (n=38)
+
+Processing gender: F
+  Processing age group: All
+    Proximal Neck Diameter: lognorm (n=34)
+    Distal Neck Diameter: lognorm (n=34)
+    Maximum Aneurysm Diameter: lognorm (n=34)
+    Distal Diameter: gamma (n=34)
+  Processing age group: <50
+    Insufficient data for F, <50: 0 samples
+  Processing age group: 50-59
+    Insufficient data for F, 50-59: 0 samples
+  Processing age group: 60-69
+    Insufficient data for F, 60-69: 9 samples
+  Processing age group: 70-79
+    Proximal Neck Diameter: lognorm (n=21)
+    Distal Neck Diameter: gamma (n=21)
+    Maximum Aneurysm Diameter: weibull_min (n=21)
+    Distal Diameter: lognorm (n=21)
+  Processing age group: 80+
+    Insufficient data for F, 80+: 4 samples
+
+Fitted parameters saved to data/processed/fitted_distributions.json
+
+Summary Statistics:
+Total samples: 258
+
+Gender distribution:
+  M: 222
+  F: 34
+  _: 2
+
+Age group distribution:
+  70-79: 120
+  60-69: 84
+  80+: 42
+  50-59: 12
+(venv) q21422vn@E-LOSXG891WFV Method_4 % 

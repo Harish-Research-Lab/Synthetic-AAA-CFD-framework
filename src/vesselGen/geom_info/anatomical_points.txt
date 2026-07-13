@@ -1,0 +1,9 @@
+Anatomical Points:
+Name, X, Y, Diameter
+Inlet, 0.00, 0.00, 22.00
+Control point, 0.00, 10.00, 22.00
+Control point, 0.00, 20.00, 22.00
+Neck 1, 0.00, 30.00, 22.00
+Neck 2, 10.00, 47.00, 22.00
+Maximum Aneurysm, 20.00, 75.95, 50.00
+Distal, 10.00, 124.90, 18.00

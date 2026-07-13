@@ -1,0 +1,41 @@
+FoamFile
+{
+    version         2;
+    format          ascii;
+    class           dictionary;
+    object          snappyHexMeshDict;
+}
+
+castellatedMesh true;
+snap            true;
+addLayers       true;
+
+geometry
+{
+    inlet
+    {
+        type triSurfaceMesh;
+        file "inlet.stl";
+    }
+    
+    outlet
+    {
+        type triSurfaceMesh;
+        file "outlet.stl";
+    }
+
+    wall
+    {
+        type triSurfaceMesh;
+        file "wall.stl";
+    }
+}
+
+castellatedMeshControls
+{
+    maxLocalCells   10000000;
+    maxGlobalCells  10000000;
+    minRefinementCells 10;
+    maxLoadUnbalance 0.1;
+    nCellsBetweenLevels 2;
+    locationInMesh 

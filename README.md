@@ -64,6 +64,8 @@ synthetic-aorta-cfd-framework/
     │   ├── shm/                # snappyHexMesh point definitions
     │   ├── of_base_case/       # OpenFOAM base case template + ParaView extraction scripts
     │   └── aaa_data.xlsx       # Patient-derived measurements (statistical basis)
+    ├── output/                 # Generated at runtime (not committed): ofCases/ (OpenFOAM
+    │                           #   cases + interior/all-cases zips), files/ (scratch U + dicts)
     └── processed/              # Fitted distributions + convex-hull metadata (JSON),
                                 #   plus figure-reproduction data (see data/processed/README.md)
 ```
@@ -78,8 +80,8 @@ Requires **Python 3.11** and, for Stages 3–4, **OpenFOAM** (developed against 
 git clone https://github.com/VijayN10/synthetic-aorta-cfd-framework.git
 cd synthetic-aorta-cfd-framework
 
-python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
+conda create -n synthetic-aorta-cfd python=3.11.7
+conda activate synthetic-aorta-cfd
 pip install -r requirements.txt
 ```
 
@@ -112,6 +114,10 @@ morphing_settings = MorphingSettings(
     enable_morphing=True,
     num_variations=10,   # morphed variations per statistical variation
 )
+
+vessel_settings = VesselSettings(
+    inlet_profile='plug',   # inlet boundary condition: 'plug' or 'parabolic'
+)
 ```
 
 Then run:
@@ -128,13 +134,6 @@ AAA_{gender}_{age_group}_stat_{stat_variant}_morph_{morph_variant}
 
 Each case directory contains the OpenFOAM structure (`0/`, `constant/`, `system/`), STL geometry, generated inlet velocity (`U`) boundary condition, parameter records, and validation results. Note that the joint convex-hull filter is **not** applied here — that is Stage 2.
 
-### Interactive geometry designer (optional)
-
-To place anatomical points visually instead of editing `config.py`:
-
-```bash
-python -m src.vesselGen.geometry_designer
-```
 
 ## Stage 2 — Population-bounds selection (the convex-hull check)
 
@@ -162,15 +161,6 @@ Like Stage 2, this reads the demographic from `config.py`. It parses the univers
 
 The generated cases are standard OpenFOAM cases. Run them locally or submit to a cluster. A template job script and mesh/solve helpers are provided in `data/input/of_base_case/` (e.g. `aorta_jobscript`). Typical flow per case: `blockMesh` → `snappyHexMesh` → solve → post-process.
 
-### Inlet velocity profile: plug vs parabolic
-
-The paper reports two inlet boundary conditions, and these are selected by **which U file the case uses**, not by a config flag:
-
-- **Plug (flat) inlet** — the default. `src/ofCaseGen/generate_u_file.py` assembles `0/U` from `data/input/U/U_top.txt` + `U_bottom.txt`, giving a `uniformFixedValue` inlet (the same time-varying velocity applied uniformly across the inlet face). This is what `main.py` produces.
-- **Parabolic inlet** — use `data/input/U/U_parabolicTimeVaryingInlet` as the case `0/U`. It applies a `codedFixedValue` profile *v(r) = v_max · (1 − (r/R)²)* across the inlet.
-
-To run the parabolic set, substitute `U_parabolicTimeVaryingInlet` for the generated `0/U` in each case before meshing/solving. Downstream results for the two profiles were kept in separate `parabolic/` and `plug/` folders, which is what the `plug`/`parabolic` keys in the correlation scripts refer to.
-
 ## Stage 4 — Extract hemodynamic biomarkers and descriptors
 
 Post-processing uses ParaView's `pvpython`. The extraction scripts live in `data/input/of_base_case/` and are deployed with each case:
@@ -192,11 +182,15 @@ Beyond the pipeline stages above, `analysis/` and `data/processed/*/` contain th
 
 ## Reproducing the dataset
 
+The three pre-CFD Python steps can be run as one command — `python run_pipeline.py` — or individually:
+
 1. (Optional) `python analysis/fit_distributions.py` and `python analysis/convex_hull_creator.py` if you changed `aaa_data.xlsx`.
-2. Set the target demographic and counts in `config.py`, then `python main.py` to generate geometries + OpenFOAM cases.
-3. `python analysis/data_bound_with_morphed_data_manual.py` to select the universal interior set for CFD.
-4. Run the selected cases (Stage 3), choosing the plug or parabolic inlet.
+2. Set the target demographic in `config.py`, then `python main.py` to generate geometries + OpenFOAM cases.
+3. `python analysis/data_bound_with_morphed_data_manual.py` to select the universal interior set, then `python analysis/zip_it.py` to package it into a CFD-ready zip. (Steps 2–3 are what `run_pipeline.py` chains.)
+4. Run the selected cases (Stage 3) with the chosen `inlet_profile`.
 5. Extract biomarkers (Stage 4) and run the correlation/figure scripts for population-level statistics.
+
+**Paper settings.** The published cohort used `stat_variant=10` and `num_variations=10` for each of the four demographics — male 60–69, male 70–79, male 80+, and female 70–79 — with every other parameter left at its default (these defaults match Table 4 of the paper). Generate one demographic per run by setting `gender`/`age_group` in `config.py`. 
 
 ## Data availability
 

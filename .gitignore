@@ -10,12 +10,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# Generated geometries and CFD outputs (kept out of the repo; large)
-data/output/
-data/input/geometry/
-data/processed/bound_plots/
-data/processed/parameter_plots/
-
 # OpenFOAM run artefacts
 processor*/
 postProcessing/

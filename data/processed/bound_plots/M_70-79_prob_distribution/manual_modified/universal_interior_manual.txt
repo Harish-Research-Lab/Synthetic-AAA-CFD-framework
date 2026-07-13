@@ -1,0 +1,66 @@
+Cases interior to all parameter pair convex hulls
+=============================================
+
+Interior cases:
+- AAA_M_70-79_stat_10_prob_distribution_morph_4
+- AAA_M_70-79_stat_10_prob_distribution_morph_5
+- AAA_M_70-79_stat_10_prob_distribution_morph_6
+- AAA_M_70-79_stat_10_prob_distribution_morph_8
+- AAA_M_70-79_stat_10_prob_distribution_morph_9
+- AAA_M_70-79_stat_1_prob_distribution_morph_1
+- AAA_M_70-79_stat_1_prob_distribution_morph_10
+- AAA_M_70-79_stat_1_prob_distribution_morph_2
+- AAA_M_70-79_stat_1_prob_distribution_morph_5
+- AAA_M_70-79_stat_1_prob_distribution_morph_6
+- AAA_M_70-79_stat_1_prob_distribution_morph_9
+- AAA_M_70-79_stat_2_prob_distribution_morph_1
+- AAA_M_70-79_stat_2_prob_distribution_morph_2
+- AAA_M_70-79_stat_2_prob_distribution_morph_4
+- AAA_M_70-79_stat_2_prob_distribution_morph_5
+- AAA_M_70-79_stat_2_prob_distribution_morph_6
+- AAA_M_70-79_stat_2_prob_distribution_morph_7
+- AAA_M_70-79_stat_2_prob_distribution_morph_9
+- AAA_M_70-79_stat_3_prob_distribution_morph_1
+- AAA_M_70-79_stat_3_prob_distribution_morph_4
+- AAA_M_70-79_stat_3_prob_distribution_morph_7
+- AAA_M_70-79_stat_3_prob_distribution_morph_8
+- AAA_M_70-79_stat_3_prob_distribution_morph_9
+- AAA_M_70-79_stat_4_prob_distribution_morph_2
+- AAA_M_70-79_stat_4_prob_distribution_morph_6
+- AAA_M_70-79_stat_4_prob_distribution_morph_7
+- AAA_M_70-79_stat_4_prob_distribution_morph_8
+- AAA_M_70-79_stat_4_prob_distribution_morph_9
+- AAA_M_70-79_stat_5_prob_distribution_morph_10
+- AAA_M_70-79_stat_5_prob_distribution_morph_2
+- AAA_M_70-79_stat_5_prob_distribution_morph_3
+- AAA_M_70-79_stat_5_prob_distribution_morph_4
+- AAA_M_70-79_stat_5_prob_distribution_morph_5
+- AAA_M_70-79_stat_5_prob_distribution_morph_7
+- AAA_M_70-79_stat_5_prob_distribution_morph_8
+- AAA_M_70-79_stat_5_prob_distribution_morph_9
+- AAA_M_70-79_stat_6_prob_distribution_morph_10
+- AAA_M_70-79_stat_6_prob_distribution_morph_4
+- AAA_M_70-79_stat_6_prob_distribution_morph_5
+- AAA_M_70-79_stat_6_prob_distribution_morph_6
+- AAA_M_70-79_stat_6_prob_distribution_morph_7
+- AAA_M_70-79_stat_6_prob_distribution_morph_9
+- AAA_M_70-79_stat_7_prob_distribution_morph_10
+- AAA_M_70-79_stat_7_prob_distribution_morph_2
+- AAA_M_70-79_stat_7_prob_distribution_morph_4
+- AAA_M_70-79_stat_7_prob_distribution_morph_6
+- AAA_M_70-79_stat_8_prob_distribution_morph_1
+- AAA_M_70-79_stat_8_prob_distribution_morph_10
+- AAA_M_70-79_stat_8_prob_distribution_morph_2
+- AAA_M_70-79_stat_8_prob_distribution_morph_3
+- AAA_M_70-79_stat_8_prob_distribution_morph_4
+- AAA_M_70-79_stat_8_prob_distribution_morph_6
+- AAA_M_70-79_stat_8_prob_distribution_morph_7
+- AAA_M_70-79_stat_8_prob_distribution_morph_9
+- AAA_M_70-79_stat_9_prob_distribution_morph_1
+- AAA_M_70-79_stat_9_prob_distribution_morph_2
+- AAA_M_70-79_stat_9_prob_distribution_morph_5
+- AAA_M_70-79_stat_9_prob_distribution_morph_6
+- AAA_M_70-79_stat_9_prob_distribution_morph_7
+- AAA_M_70-79_stat_9_prob_distribution_morph_8
+
+Total interior cases: 60

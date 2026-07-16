@@ -1,0 +1,34 @@
+Geometry Metrics Summary
+======================
+
+Case: AAA_F_70-79_stat_2_parabolic_morph_8
+Gender: F
+Age Group: 70-79
+
+Base Geometry:
+-------------
+Volume: 210429.2 mm³
+Surface Area: 20433.0 mm²
+Centerline Length: 131.5 mm
+Tortuosity: 1.049
+Sphericity: 0.837
+Convexity: 0.741
+Average Radius: 40.2 mm
+
+Morphed Geometry:
+----------------
+Volume: 201136.6 mm³
+Surface Area: 19979.7 mm²
+Centerline Length: 130.1 mm
+Tortuosity: 1.038
+Sphericity: 0.831
+Convexity: 0.720
+Average Radius: 40.0 mm
+
+Relative Changes (%):
+-------------------
+Volume Change: -4.4%
+Surface Area Change: -2.2%
+Centerline Length Change: -1.0%
+Tortuosity Change: -1.0%
+Sphericity Change: -0.8%

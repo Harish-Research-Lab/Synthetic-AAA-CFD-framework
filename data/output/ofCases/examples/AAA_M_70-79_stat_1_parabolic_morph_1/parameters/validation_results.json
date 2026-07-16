@@ -1,0 +1,50 @@
+{
+    "measurements": {
+        "Inlet": 20.699610275155,
+        "Neck 1": 22.439294616025034,
+        "Neck 2": 24.982506133590647,
+        "Maximum Aneurysm": 45.79996764303886,
+        "Distal": 15.535121695347136
+    },
+    "validation_details": {
+        "Inlet": {
+            "distribution": "Normal",
+            "mean": 22.45959595959596,
+            "std": 2.532333103654111,
+            "percentile": 24.352589650563957,
+            "value": 20.699610275155
+        },
+        "Neck 1": {
+            "distribution": "Normal",
+            "mean": 22.45959595959596,
+            "std": 2.532333103654111,
+            "percentile": 49.68017724310634,
+            "value": 22.439294616025034
+        },
+        "Neck 2": {
+            "distribution": "Weibull",
+            "shape": 2.127972879985097,
+            "location": 18.8159941947137,
+            "scale": 6.222843916797131,
+            "percentile": 62.50021341318705,
+            "value": 24.982506133590647
+        },
+        "Maximum Aneurysm": {
+            "distribution": "Gamma",
+            "shape": 5.477411163953672,
+            "location": 36.592380606054334,
+            "scale": 3.103201595566359,
+            "percentile": 12.45086310733153,
+            "value": 45.79996764303886
+        },
+        "Distal": {
+            "distribution": "Log-normal",
+            "shape": 0.6501671487516945,
+            "location": 10.752002650441646,
+            "scale": 7.562080671042606,
+            "percentile": 24.05555720128329,
+            "value": 15.535121695347136
+        }
+    },
+    "attempt_number": 1
+}

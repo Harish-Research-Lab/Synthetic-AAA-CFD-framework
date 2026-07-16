@@ -1,0 +1,18 @@
+FoamFile
+{
+    version         2;
+    format          ascii;
+    class           dictionary;
+    object          surfaceFeatureExtractDict;
+}
+
+surfaces
+(
+    "inlet.stl"
+    "outlet.stl"
+    "wall.stl"
+);
+
+includedAngle   150;
+
+

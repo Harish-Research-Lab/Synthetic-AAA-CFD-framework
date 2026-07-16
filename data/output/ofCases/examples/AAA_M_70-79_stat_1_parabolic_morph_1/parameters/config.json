@@ -1,0 +1,60 @@
+{
+    "demographics": {
+        "gender": "M",
+        "age_group": "70-79",
+        "stat_variant": 1
+    },
+    "vessel_settings": {
+        "num_points": 100,
+        "num_circumference_vertices": 100,
+        "perturbation_range": 0.15,
+        "num_cycles": 4,
+        "save_visualization_images": false,
+        "inlet_profile": "parabolic"
+    },
+    "morphing_settings": {
+        "enable_morphing": true,
+        "num_variations": 10,
+        "save_control_points": false,
+        "visualize_morphing": false,
+        "generate_cases": true,
+        "sphere_radius": 5.0,
+        "num_control_points": 50,
+        "influence_radius": 10.0,
+        "fixed_percentage": 10.0,
+        "buffer_percentage": 5.0,
+        "smoothing_iterations": 2,
+        "smoothing_factor": 0.5,
+        "transition_power": 2.0
+    },
+    "anatomical_template": {
+        "inlet_position": [
+            0,
+            0
+        ],
+        "control_point1_position": [
+            0,
+            10
+        ],
+        "control_point2_position": [
+            0,
+            20
+        ],
+        "neck1_position": [
+            0,
+            30
+        ],
+        "neck2_position": [
+            10,
+            47
+        ],
+        "max_aneurysm_position": [
+            20,
+            75.95
+        ],
+        "distal_position": [
+            10,
+            124.9
+        ]
+    }
+}

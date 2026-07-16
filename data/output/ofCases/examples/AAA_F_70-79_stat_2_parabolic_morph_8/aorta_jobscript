@@ -1,0 +1,36 @@
+#!/bin/bash --login
+#SBATCH -p multicore
+#SBATCH -n 32
+
+module load openfoam/9-foss-2021a
+source $FOAM_BASH
+
+surfaceFeatures
+
+blockMesh
+#foamToVTK -time 0 -constant -noZero
+#mv VTK VTK_blockMesh
+
+foamDictionary -entry "method" -set "scotch" system/decomposeParDict
+foamDictionary -entry 'numberOfSubdomains' -set "32" system/decomposeParDict
+decomposePar -noZero -force > decomposePar.log 2>&1
+mpirun -np 32 snappyHexMesh -overwrite -parallel > snappyHexMesh.log 2>&1
+reconstructParMesh -constant > reconstructmesh.log 2>&1
+
+#foamToVTK -time 0 -constant -noZero
+#mv VTK VTK_beforeTransform
+
+checkMesh > checkMesh.output 2>&1
+
+transformPoints "scale=(0.001 0.001 0.001)"
+#foamToVTK -time 0 -constant -noZero
+#mv VTK VTK_afterTransform
+
+mpirun -np 32 checkMesh -parallel -allGeometry -allTopology -writeSets vtk > checkMeshTranformedLong.output 2>&1
+checkMesh > checkMeshTransformedShort.output 2>&1
+
+decomposePar -force
+mpirun -np 32 pisoFoam -parallel > pisoFoam.log 2>&1
+reconstructPar
+
+rm -rf processor*

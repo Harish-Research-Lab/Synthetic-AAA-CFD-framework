@@ -198,7 +198,7 @@ The generated virtual population and CFD results are archived separately. *(This
 
 ## License
 
-Released under the MIT License. See [LICENSE](LICENSE).
+Released under the HARISH LAB — PROPRIETARY SOFTWARE LICENCE. See [LICENSE](LICENSE).
 
 ## Citation
 

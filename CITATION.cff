@@ -1,11 +1,10 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "If you use this software, please cite both the software and the associated paper."
 title: "Synthetic Aorta CFD Framework: virtual AAA population generation and hemodynamic analysis"
 type: software
 authors:
   - family-names: Nandurdikar
     given-names: Vijay
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # TODO: add ORCID
   - family-names: Tyagi
     given-names: Aryan
   - family-names: Canchi
@@ -16,13 +15,14 @@ authors:
     given-names: Alistair
   - family-names: Harish
     given-names: "Ajay B."
+    orcid: "https://orcid.org/0000-0001-5234-7047"
   # TODO (optional): add ORCIDs for co-authors before Zenodo archiving
-repository-code: "https://github.com/VijayN10/synthetic-aorta-cfd-framework"
-license: MIT
+repository-code: "https://github.com/Harish-Research-Lab/Synthetic-AAA-CFD-framework"
+license-url: "https://github.com/Harish-Research-Lab/Synthetic-AAA-CFD-framework/blob/main/LICENSE"
 # TODO: after archiving to Zenodo, add the minted DOI here:
 # doi: "10.5281/zenodo.XXXXXXX"
 version: "1.0.0"
-date-released: "2026-07-12"
+date-released: "2026-07-16"
 keywords:
   - abdominal aortic aneurysm
   - computational fluid dynamics
@@ -45,6 +45,7 @@ preferred-citation:
       given-names: Alistair
     - family-names: Harish
       given-names: "Ajay B."
+      orcid: "https://orcid.org/0000-0001-5234-7047"
   journal: "Royal Society Open Science"
   # doi: "10.1098/rsos.260428"  # TODO: confirm final article DOI
   year: 2026

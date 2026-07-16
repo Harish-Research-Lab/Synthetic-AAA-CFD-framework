@@ -70,7 +70,7 @@ synthetic-aorta-cfd-framework/
                                 #   plus figure-reproduction data (see data/processed/README.md)
 ```
 
-> **Note on data.** Generated geometries (`data/input/geometry/`) and CFD results (`data/output/`) are **not** included in this repository because of their size; they are produced by running the pipeline.
+> **Note on data.** Generated geometries (`data/input/geometry/`) and CFD results (`data/output/`) are **not** included in this repository because of their size; they are produced by running the pipeline. The one exception is `data/output/ofCases/examples/`, which holds four ready-to-run example cases — one per demographic — so you can inspect a complete case setup without running the generator (see its [README](data/output/ofCases/examples/README.md)).
 
 ## Installation
 
@@ -160,6 +160,8 @@ Like Stage 2, this reads the demographic from `config.py`. It parses the univers
 ## Stage 3 — Run the CFD simulations
 
 The generated cases are standard OpenFOAM cases. Run them locally or submit to a cluster. A template job script and mesh/solve helpers are provided in `data/input/of_base_case/` (e.g. `aorta_jobscript`). Typical flow per case: `blockMesh` → `snappyHexMesh` → solve → post-process.
+
+Four ready-to-run example cases (one per demographic) are provided in `data/output/ofCases/examples/`; each includes its `aorta_jobscript` for cluster submission. See that folder's [README](data/output/ofCases/examples/README.md) for the full mesh → solve sequence.
 
 ## Stage 4 — Extract hemodynamic biomarkers and descriptors
 

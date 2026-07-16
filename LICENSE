@@ -1,21 +1,128 @@
-MIT License
+HARISH LAB — PROPRIETARY SOFTWARE LICENCE
 
-Copyright (c) 2026 VijayN10
+Copyright (c) 2024 - Present
+Harish Lab (HL)
+Department of Mechanical and Aerospace Engineering
+The University of Manchester
+Manchester, M13 9PL, United Kingdom
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+===============================================================================
+GRANT OF LICENCE
+===============================================================================
+
+This software and its associated documentation, source code, and all related
+files (collectively, the "Software") are the exclusive intellectual property
+of Dr Ajay B. Harish and the Harish Lab (HL), Department of
+Mechanical and Aerospace Engineering, The University of Manchester
+(the "Licensor").
+
+Subject to the terms and conditions of this Licence, the Licensor hereby
+grants to the end user (the "Licensee") a limited, non-exclusive,
+non-transferable, revocable licence to:
+
+  1. Use the Software solely for personal, academic, or internal research
+     purposes.
+
+  2. Modify the Software for the Licensee's own internal use, provided that
+     any such modifications remain subject to the terms of this Licence and
+     are not distributed, published, or otherwise disclosed to any third party
+     without the prior express written consent of the Licensor.
+
+===============================================================================
+COMMERCIAL USE
+===============================================================================
+
+Commercial use of the Software, in whole or in part, is strictly reserved for
+the exclusive use of the Licensor (Dr Ajay B. Harish and the Harish Lab).
+No Licensee may use the Software, or any derivative thereof, for
+any commercial purpose — including but not limited to sale, licensing,
+sublicensing, consulting, or any revenue-generating activity — without the
+prior express written permission of the Licensor.
+
+===============================================================================
+RESTRICTIONS
+===============================================================================
+
+The Licensee shall NOT, without the prior express written consent of the
+Licensor:
+
+  1. Redistribute, publish, sublicense, sell, rent, lease, transfer, or
+     otherwise make the Software available to any third party, whether in
+     source code or binary form, in whole or in part.
+
+  2. Share, upload, or otherwise disclose the Software or any derivative
+     works through any medium, including but not limited to public or private
+     repositories, file-sharing platforms, preprint servers, or institutional
+     repositories.
+
+  3. Use the Software for any commercial purpose (see Commercial Use above).
+
+  4. Remove, alter, or obscure any copyright, trademark, or other proprietary
+     notices contained within the Software.
+
+  5. Represent the Software, or any derivative thereof, as the Licensee's own
+     work.
+
+===============================================================================
+ACADEMIC CITATION
+===============================================================================
+
+Any academic publications, conference papers, technical reports, or
+presentations that make use of this Software, in whole or in part, must
+include an appropriate acknowledgement of the Harish Lab and its
+contributors. The Licensor reserves the right to specify
+the required citation format.
+
+===============================================================================
+DISCLAIMER OF WARRANTIES
+===============================================================================
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE LICENSOR DOES NOT
+GUARANTEE THAT THE SOFTWARE IS ERROR-FREE. IN NO EVENT SHALL THE LICENSOR OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+===============================================================================
+TERMINATION
+===============================================================================
+
+This Licence is effective until terminated. The Licensor reserves the right
+to terminate this Licence immediately and without notice if the Licensee
+breaches any of its terms and conditions. Upon termination, the Licensee must
+cease all use of the Software and destroy all copies in their possession.
+
+===============================================================================
+GOVERNING LAW
+===============================================================================
+
+This Licence shall be governed by and construed in accordance with the laws of
+England and Wales. Any disputes arising under or in connection with this
+Licence shall be subject to the exclusive jurisdiction of the courts of
+England and Wales.
+
+===============================================================================
+CONTACT
+===============================================================================
+
+For permissions, licensing enquiries, or any other matters relating to this
+Software, please contact:
+
+  Dr Ajay B. Harish
+  Harish Lab (HL)
+  Department of Mechanical and Aerospace Engineering
+  The University of Manchester
+  Manchester, M13 9PL, United Kingdom
+
+  E-mail  : Ajay.Harish@manchester.ac.uk
+  Web     : https://www.harishlab.com
+
+===============================================================================

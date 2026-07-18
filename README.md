@@ -1,6 +1,6 @@
 # Synthetic Aorta CFD Framework
 
-https://doi.org/10.5281/zenodo.21435232
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21435232.svg)](https://doi.org/10.5281/zenodo.21435232)
 
 A framework for generating a **synthetic virtual population** of Abdominal Aortic Aneurysm (AAA) geometries, setting them up as **OpenFOAM** computational fluid dynamics (CFD) cases, and extracting **hemodynamic biomarkers and geometric descriptors** from the results.
 

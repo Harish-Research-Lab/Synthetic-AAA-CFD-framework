@@ -18,8 +18,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-5234-7047"
 repository-code: "https://github.com/Harish-Research-Lab/Synthetic-AAA-CFD-framework"
 license: MIT
-# TODO: after archiving to Zenodo, add the minted DOI here:
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.21435232" 
 version: "1.0.0"
 date-released: "2026-07-19"
 keywords:

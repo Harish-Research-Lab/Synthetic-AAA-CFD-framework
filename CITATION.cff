@@ -16,13 +16,12 @@ authors:
   - family-names: Harish
     given-names: "Ajay B."
     orcid: "https://orcid.org/0000-0001-5234-7047"
-  # TODO (optional): add ORCIDs for co-authors before Zenodo archiving
 repository-code: "https://github.com/Harish-Research-Lab/Synthetic-AAA-CFD-framework"
-license-url: "https://github.com/Harish-Research-Lab/Synthetic-AAA-CFD-framework/blob/main/LICENSE"
+license: MIT
 # TODO: after archiving to Zenodo, add the minted DOI here:
 # doi: "10.5281/zenodo.XXXXXXX"
 version: "1.0.0"
-date-released: "2026-07-16"
+date-released: "2026-07-19"
 keywords:
   - abdominal aortic aneurysm
   - computational fluid dynamics
